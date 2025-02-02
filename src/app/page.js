@@ -13,7 +13,6 @@ import Footer from '@/components/Footer/Footer';
 const Home = () => {
   return (
     <div>
-        <Header/>
         <Banner/>
         <About/>
         <Why/>
@@ -24,7 +23,6 @@ const Home = () => {
         {/* <Insight3dIntro/> */}
         {/* <HowWork/> */}
         {/* <Feature/> */}
-        <Footer/>
     </div>
   )
 }

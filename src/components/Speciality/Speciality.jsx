@@ -32,7 +32,7 @@ const Speciality = ({noficons}) => {
         },
     ]
   return (
-    <div className="pt-8 pb-8 bg-lightGrey">
+    <div className="w-[100%] pt-8 pb-8 bg-lightGrey">
         <h2>Our Popular Specialties✨</h2>
         <div className="flex p-8  justify-center items-center gap-8 flex-wrap">
             {data.slice(0,noficons).map((obj,index)=>{
