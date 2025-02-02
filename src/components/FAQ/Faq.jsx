@@ -22,7 +22,7 @@ const Faq = () => {
   
 
     return (
-      <div id="faqs" className='flex flex-col items-center space-y-8 py-Ypad px-Xpad md:p-0 md:space-y-6'>
+      <div id="faqs" className='p-[4rem] flex flex-col items-center space-y-8 py-Ypad px-Xpad md:p-[2rem] md:space-y-6'>
         <div className='flex flex-col space-y-5 w-full justify-center items-center'>
           <h3>Frequently Asked Questions</h3>
           <h6 className='text-grey text-center w-[70%] md:w-full'>General Information.</h6>

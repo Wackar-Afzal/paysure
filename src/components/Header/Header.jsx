@@ -23,7 +23,7 @@ const Header = () => {
         <div className='flex space-x-14 items-center md:space-x-0'>
         <div className='flex space-x-8  md:hidden'>
             <Link className={pathname==='/'?"text-primary":"text-black"}  href={'/'} >Home</Link>
-            <Link className={pathname==='/news'?"text-primary":"text-black"} href={'/'} >Services</Link>
+            <Link className={pathname==='/services'?"text-primary":"text-black"} href={'/services'} >Services</Link>
             <Link className={pathname==='/about'?"text-primary":"text-black"} href={'/about'} >About</Link>
             <Link className={pathname==='/contact'?"text-primary":"text-black"} href={'/'} >Contact</Link>
             <Link className={pathname==='/#faqs'?"text-primary":"text-black"} href={'/#faqs'} >FAQ</Link>
