@@ -3,7 +3,7 @@ import { icons } from "../../assets/icons";
 
 const AboutImpact = () => {
   return (
-    <div className="flex space-x-[6rem] xl:flex-col xl:space-x-[0rem] xl:gap-8  ">
+    <div className="flex space-x-[6rem] xl:flex-col xl:space-x-[0rem] xl:gap-8 p-[4rem]  ">
       <div className="w-[45rem] xl:w-full">
         <img src={"./aboutImg1.png"} alt="" />
       </div>

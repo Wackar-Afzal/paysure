@@ -30,12 +30,12 @@ const AboutForm = () => {
       <div className="flex flex-col justify-center items-center w-full px-Xpad py-Ypad md:p-MXpad">
         <div className="flex flex-col justify-center items-center space-y-[25px] w-formWidth p-[32px] md:p-0 md:w-full">
           <div className="flex flex-col space-y-[0.4rem] w-full">
-            <h5 className="text-center text-black font-semibold">
+            {/* <h5 className="text-center text-black font-semibold">
               Welcome to <span className="text-primary">Company</span>
-            </h5>
-            <h6 className="text-center text-grey">
+            </h5> */}
+            <h3 className="text-center text-grey">
               Join us and unlock a world of possibilities.
-            </h6>
+            </h3>
           </div>
 
           <div className="w-full flex flex-col space-y-[13.6px]">

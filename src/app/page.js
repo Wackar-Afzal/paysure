@@ -15,7 +15,7 @@ import RCM from '@/components/rcm/RCM';
 import Bookdemo from '@/components/bookdemo/Bookdemo';
 import Location from '@/components/location/location';
 import Reviews from '@/components/reviews/Reviews';
-
+import ContactSection from '@/components/Contact/Contact';
 const content = {
   "bannerIcons": {
     "billblack": workicons.medBilling,
@@ -26,47 +26,57 @@ const content = {
   "sections": [
     {
       "icon": "billblack",
-      "link": "",
+      "link": "/medical-billing-services",
       "title": "Medical Billing Services",
-      "description": "Expert patient billers offer the most complete medical billing services that entail handling check-in/out, claims, payments, and denials for health care providers."
+      "description": "Expert patient billers handle check-in/out, claims, payments, and denials, ensuring efficient revenue cycle management for healthcare providers."
     },
     {
       "icon": "revenue",
       "link": "",
       "title": "Medical Coding Services",
-      "description": "Clinical coding officers translate patient services into ICD-10 and CPT codes and generate a clean “super-bill” for the biller to submit to the insurance payer."
+      "description": "Clinical coding officers accurately translate patient services into ICD-10 and CPT codes, generating precise super-bills to facilitate efficient insurance claim submission."
     },
     {
       "icon": "clock",
       "link": "",
       "title": "Credentialing Services",
-      "description": "Provider enrollment services by our credentialing specialists help healthcare providers join the network of desirable payors with maximum privileges."
+      "description": "Our credentialing specialists streamline provider enrollment, ensuring healthcare providers gain access to desirable payor networks with optimal privileges."
     },
     {
       "icon": "healthcare",
       "link": "",
-      "title": "Healthcare RCM Services",
-      "description": "Revenue cycle management services are specialty-specific, which means a physician’s bespoke demands are met by a dedicated medical biller."
+      "title": "Healthcare RCM",
+      "description": "Our specialized revenue cycle management services provide physicians with dedicated medical billers who cater to their unique needs."
     }
   ]
 }
 
 const Home = () => {
+  const data={
+    h1_1:"Simplifying",
+    span:"Medical Billing",
+    h1_2:"with Accuracy & Trust",
+    p:"At PaySure, we streamline your medical billing process, ensuring precision, compliance, and fast reimbursements.",
+    button:true,
+    // backgroundimg:"../assets/banner.png"
+    backgroundimg:"/banner.png"
+  }
   return (
     <div>
-        <Banner/>
-        <About bannerIcons={content.bannerIcons} sections={content.sections}/>
+        <Banner data={data}/>
+        <About bannerIcons={content.bannerIcons} sections={content.sections} showbuttons={true}/>
         <Homebaner2/>
 
         {/* <Why/> */}
         {/* <Work/> */}
-        <Offers/>
-        <Speciality noficons={3}/>
+         {/*<Offers/>*/}
         <RCM/>
         <Bookdemo/>
+        <Speciality noficons={3}/>
         <Location/>
         <Reviews/>
         <Faq/>
+        <ContactSection/>
         {/* <Insight3dIntro/> */}
         {/* <HowWork/> */}
         {/* <Feature/> */}

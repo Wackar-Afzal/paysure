@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const About = ({ bannerIcons, sections }) => {
+const About = ({ bannerIcons, sections ,showbuttons}) => {
   return (
     <div className="flex space-y-10 flex-col py-[6rem] px-[4rem]  justify-center items-center w-full md:py-[3rem] md:p-MXpad">
       <h1 className="text-center">
@@ -19,21 +19,21 @@ const About = ({ bannerIcons, sections }) => {
         patient claims billing principles. PaySure's medical billing management
         services make them the perfect ten for full billing services, including:
       </p>
-      <div className="flex justify-center items-center gap-4 flex-wrap ">
+      <div className="flex justify-center  gap-4 flex-wrap ">
         {sections.map((section, index) => (
           <div
             key={index}
             data-aos="fade-up"
-            className="flex p-6 flex-col space-y-8  items-center justify-center w-[18rem] border border-[2px] rounded-[16px] border-lightGrey hover:cursor-pointer hover:shadow-card-shadowhome transition-shadow duration-300 md:w-full"
+            className="flex p-6 flex-col space-y-8  items-center justify-center w-[15rem] border border-[2px] rounded-[16px] border-lightGrey hover:cursor-pointer hover:shadow-card-shadowhome transition-shadow duration-300 md:w-full"
           >
             {bannerIcons[section.icon]}
             <h4 className="text-center text-black font-bold">
               {section.title}
             </h4>
             <p className="h-[12rem] md:h-auto">{section.description}</p>
-            <Link className="btn"
-              href={"/services"}> Explore More
-            </Link>
+            {showbuttons?<Link className="btn"
+              href={`${section.link}`}> Explore More
+            </Link>:null}
           </div>
         ))}
       </div>

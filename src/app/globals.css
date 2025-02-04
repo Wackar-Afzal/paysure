@@ -73,6 +73,12 @@ code {
   --lightGrey:#F5F6FA;
 
 }
+@media screen and (max-width: 1000px) and (min-width: 781px){
+
+  .contact-form-container {
+    width:60vw
+  }
+}
 
 
 img{
@@ -259,7 +265,7 @@ text-align: left;
 
 
 .bannerImage{
-  background-image: url('../assets/banner.png');
+  /* background-image: url('../assets/banner.png'); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
