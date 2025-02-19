@@ -17,10 +17,15 @@ import Location from '@/components/location/location';
 import Reviews from '@/components/reviews/Reviews';
 import ContactSection from '@/components/Contact/Contact';
 const content = {
+  card_per_row:3,
+  h1:"Our Medical Coding Services",
+  p1:"Our leading medical billing company has revolutionized healthcare billing solutions by replacing outdated, error-prone practice management  procedures with smart, electronic medical billing services and clinical billing and accounts management solutions for all specialties.",
+  p2:"The results? Fast reimbursements, accurate claim transmission, better  patient care and smooth cash flow while adhering to HIPAA-compliant  patient claims billing principles. PaySure's medical billing management services make them the perfect ten for full billing services, including:",
   "bannerIcons": {
     "billblack": workicons.medBilling,
     "revenue": workicons.coding,
     "clock": workicons.securePaper,
+    "healthcare": workicons.healthcare,
     "healthcare": workicons.healthcare,
   },
   "sections": [
@@ -32,22 +37,29 @@ const content = {
     },
     {
       "icon": "revenue",
-      "link": "",
+      "link": "/medical-coding-service",
       "title": "Medical Coding Services",
       "description": "Clinical coding officers accurately translate patient services into ICD-10 and CPT codes, generating precise super-bills to facilitate efficient insurance claim submission."
     },
     {
       "icon": "clock",
-      "link": "",
+      "link": "/medical-credentialing-service",
       "title": "Credentialing Services",
       "description": "Our credentialing specialists streamline provider enrollment, ensuring healthcare providers gain access to desirable payor networks with optimal privileges."
     },
     {
       "icon": "healthcare",
-      "link": "",
-      "title": "Healthcare RCM",
+      "link": "/rcm",
+      "title": "RCM",
       "description": "Our specialized revenue cycle management services provide physicians with dedicated medical billers who cater to their unique needs."
-    }
+    },
+    {
+      "icon": "healthcare",
+      "link": "/healthcare-seo",
+      "title": "Healthcare SEO",
+      "description": "Our specialized revenue cycle management services provide physicians with dedicated medical billers who cater to their unique needs."
+    },
+  
   ]
 }
 
@@ -64,7 +76,7 @@ const Home = () => {
   return (
     <div>
         <Banner data={data}/>
-        <About bannerIcons={content.bannerIcons} sections={content.sections} showbuttons={true}/>
+        <About content={content} showbuttons={true}/>
         <Homebaner2/>
 
         {/* <Why/> */}

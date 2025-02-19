@@ -19,12 +19,20 @@ const Page = () => {
     button:false,
     backgroundimg:"/aboutheader2.png"
   }
+  const aboutBanner={
+    img:"./aboutImg1.png",
+    subH:"Our Mission",
+    h_1:"Joining Hands With",
+    hspan:"Doctors",
+    h_2:"",
+    p:"Doctor are the heroes of health, but billing is their kryptonite. That’s the harsh reality that many doctors face when they deal with complexities and risks of medical billing and coding. They are meant to be the healers of humanity, but they often end up in hot water due to non-compliance, errors, fines, penalties, and audits. That’s why we decided to transform the medical billing industry with our cutting-edge and trustworthy solutions. We crack the hard nuts of billing and coding, so that providers can focus on healing, while we manage their billing. Our medical billing solutions have helped 1000+ providers, who were once up to their neck in trouble, optimize their processes and ramp up their cash flow.",
+  }
   return (
     <div>
       <div className="flex flex-col items-center" >
         <div className="flex flex-col items-center gap-10 ">
           <Banner data={data}/>
-          <AboutBanner />
+          <AboutBanner aboutBanner={aboutBanner} />
           {/* <AboutImpact /> */}
           <Why/>
           {/* <Offers/> */}
