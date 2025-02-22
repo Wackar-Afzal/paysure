@@ -5,7 +5,7 @@ const ContactSection = () => {
   return (
     <section id="contact" className="p-[4rem] bg-lightGrey md:p-[2rem]">
       <div className=" ">
-        <div className="flex lg:flex-col space-y-4">
+        <div className="flex justify-between lg:flex-col space-y-4">
           <div className="p-4 ">
             <h2 className="text-left font-bold mb-4 text-secondary">Get in Touch</h2>
             <p className="mb-6">

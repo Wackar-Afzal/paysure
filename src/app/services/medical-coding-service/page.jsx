@@ -18,7 +18,7 @@ const page = () => {
       }
       const aboutBanner={
         button:"call us",
-        img:"./aboutImg1.png",
+        img:"/aboutImg1.png",
         // subH:"We Offer",
         h_1:"Medical Coding and Auditing",
         hspan:"Doctors",

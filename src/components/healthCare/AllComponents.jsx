@@ -1,6 +1,7 @@
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
-
+import AboutBanner from "../AboutPageComponents/AboutBanner";
+import ContactSection from "../Contact/Contact";
 const AllComponents = ({ content }) => {
   const { hero, features, services, ctaSection, trustSection } = content
 
@@ -95,8 +96,8 @@ const AllComponents = ({ content }) => {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-[#2D2150] py-16">
-        <div className=" mx-auto px-4">
+      <section className="bg-[#2D2150] py-16 ">
+        <div className=" mx-auto px-[4rem]">
           <div className="grid gap-8 grid-cols-2 sm:grid-cols-1">
             <div className="space-y-4">
               <h2 className="text-left text-2xl font-bold text-white sm:text-3xl">{ctaSection.title}</h2>
@@ -120,16 +121,16 @@ const AllComponents = ({ content }) => {
       </section>
 
       {/* Trust Section */}
-      <section className="py-16">
+      <section className="py-16 px-[4rem]">
         <div className="mx-auto px-4 ">
           <div className="space-y-8  ">
             <div className="space-y-4 flex sm:flex-col gap-8 items-baseline">
               <h2 className="text-left text-2xl font-bold text-[#2D2150] sm:text-3xl">{trustSection.title}</h2>
               <p className=" text-left mx-auto max-w-2xl text-gray-600">{trustSection.description}</p>
             </div>
-            <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="flex flex-wrap gap-4">
               {trustSection.benefits.map((benefit, index) => (
-                <div key={index} className="flex items-center space-x-3">
+                <div key={index} className="flex items-center space-x-3 w-[13rem]">
                   <CheckCircleIcon className="h-6 w-6 text-[#2D2150]" />
                   <span className="font-medium">{benefit}</span>
                 </div>
@@ -138,6 +139,10 @@ const AllComponents = ({ content }) => {
           </div>
         </div>
       </section>
+      <section className="">
+        <AboutBanner aboutBanner={content.aboutBanner} imgRight={false}/>
+      </section>
+      <ContactSection/>
     </div>
   )
 }

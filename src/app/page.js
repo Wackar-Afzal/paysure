@@ -31,31 +31,31 @@ const content = {
   "sections": [
     {
       "icon": "billblack",
-      "link": "/medical-billing-services",
+      "link": "/services/medical-billing-services",
       "title": "Medical Billing Services",
       "description": "Expert patient billers handle check-in/out, claims, payments, and denials, ensuring efficient revenue cycle management for healthcare providers."
     },
     {
       "icon": "revenue",
-      "link": "/medical-coding-service",
+      "link": "/services/medical-coding-service",
       "title": "Medical Coding Services",
       "description": "Clinical coding officers accurately translate patient services into ICD-10 and CPT codes, generating precise super-bills to facilitate efficient insurance claim submission."
     },
     {
       "icon": "clock",
-      "link": "/medical-credentialing-service",
+      "link": "/services/medical-credentialing-service",
       "title": "Credentialing Services",
       "description": "Our credentialing specialists streamline provider enrollment, ensuring healthcare providers gain access to desirable payor networks with optimal privileges."
     },
     {
       "icon": "healthcare",
-      "link": "/rcm",
+      "link": "/services/rcm",
       "title": "RCM",
       "description": "Our specialized revenue cycle management services provide physicians with dedicated medical billers who cater to their unique needs."
     },
     {
       "icon": "healthcare",
-      "link": "/healthcare-seo",
+      "link": "/services/healthcare-seo",
       "title": "Healthcare SEO",
       "description": "Our specialized revenue cycle management services provide physicians with dedicated medical billers who cater to their unique needs."
     },

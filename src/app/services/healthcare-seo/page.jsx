@@ -69,6 +69,13 @@ const content = {
     description: "Whether you need a website, an ad, a content, or a social media strategy, we can help you connect with your target audience and grow your practice. Contact us today and let our creative solutions help you succeed.",
     benefits: ["HIPAA Compliant", "Healthcare Focused", "Results Driven", "Transparent Reporting"],
   },
+  aboutBanner:{
+    // button:"call us",
+    img:"https://bellmedex.com/wp-content/uploads/2023/11/HC-S5-P2.webp",
+    // subH:"We Offer",
+    h_1:"Boost Your Online Presence",
+    p:"Our healthcare digital marketing service manages the entire digital marketing operations of your healthcare facility, from plaining to execution to optimization. Our experts help you create a strong online brand identity, reach and engage your target audience, and generate more leads and conversions.",
+  }
 }
 
 export default function Page() {

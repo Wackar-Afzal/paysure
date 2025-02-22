@@ -34,7 +34,7 @@ const Why = () => {
             <p className="font-bold">Partner with us for 24/7 support and seamless medical billing solutions.</p>
         </div>
         <div className="w-[45%] h-[90vh] flex justify-center overflow-hidden bg-white rounded-xl lg:w-full lg:h-[50vh]">
-            <img className="object-cover  " src='./whychoose.png'/>
+            <img className="object-cover  " src='/whychoose.png'/>
         </div>
     </div>
   )

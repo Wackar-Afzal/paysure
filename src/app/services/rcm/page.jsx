@@ -18,7 +18,7 @@ const page = () => {
       }
       const aboutBanner={
         // button:"call us",
-        img:"./aboutImg1.png",
+        img:"/aboutImg1.png",
         // subH:"We Offer",
         h_1:"Importance of Choosing PaySure Revenue Cycle Management Service in ",
         hspan:"Medical Billing",
@@ -46,7 +46,7 @@ const page = () => {
            "description": "We arrange your price structure to bring you the best tms reimbursement rates on every contract we get. Most importantly, our approach is frictionless, and we keep you updated every other week with a complete summary report."
          },
          {
-           img:"./aboutImg1.png",
+           img:"/aboutImg1.png",
            "icon": "revenue",
            "link": "",
            "title": "External lol Coding Audits",
