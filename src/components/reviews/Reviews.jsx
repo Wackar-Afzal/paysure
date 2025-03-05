@@ -10,7 +10,7 @@ export const aboutPageData = [
   },
   {
     description: '“The level of support and expertise provided by this company is simply unmatched...”',
-    name: 'Michael Johnson',
+    name: 'dr might',
     status: 'Marketing Director, Creative Solutions',
     img: '/t1.png',
   },
