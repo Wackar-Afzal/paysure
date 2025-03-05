@@ -1,5 +1,6 @@
 import { specialityicons } from "@/assets/icons"
 import Link from "next/link"
+import MedicalSpecialtiesGrid from "./MoreSpeciality"
 const Speciality = ({noficons}) => {
     const data=[
         {svg:"kidney",
@@ -42,7 +43,8 @@ const Speciality = ({noficons}) => {
                 <h4 className="font-bold">{obj.heading}</h4></div>
             })}
         </div>
-        {noficons<data.length?<Link href="/specialities" className="m-auto text-[18px] flex justify-center items-center w-[10rem] h-[2.765rem] min-w-[6.875rem] bg-primary rounded-full text-white border border-primary transition-all duration-200 ease-linear hover:bg-[#fffefe] hover:text-black hover:border-[#000000]"> Explore More</Link>:null}
+        {noficons<data.length?<Link href="/specialties" className="m-auto text-[18px] flex justify-center items-center w-[10rem] h-[2.765rem] min-w-[6.875rem] bg-primary rounded-full text-white border border-primary transition-all duration-200 ease-linear hover:bg-[#fffefe] hover:text-black hover:border-[#000000]"> Explore More</Link>:null}
+
     </div>
   )
 }

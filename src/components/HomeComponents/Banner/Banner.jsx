@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Banner = ({data}) => {
@@ -14,9 +15,9 @@ const Banner = ({data}) => {
         <p className='text-grey text-[20px]'>{data.p}</p>
         </div>
           {data.button?  <div className='flex space-x-3 sm:flex-col sm:space-y-2 sm:space-x-0'>
-          <button className="btn w-[max-content]">
+          <Link href={`${data.link}`} className="btn w-[max-content]">
             Let's Connect
-          </button>
+          </Link>
         </div>:null
         }
       </div>

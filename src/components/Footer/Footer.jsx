@@ -18,23 +18,23 @@ const Footer = () => {
   <p className=" text-sm font-poppins font-light text-left">We specialize in connecting customers with top-rated service providers for all their needs, ensuring quality and reliability.</p>
 </div>
 <div className="flex flex-col gap-[.8rem] w-[15%] md:w-[100%]">
-        <h3 className=" text-secondary font-poppins text-[1rem] font-semibold leading-[1.75rem] text-left">Services</h3>
+        <h3 className=" text-secondary font-poppins text-[1rem] font-semibold leading-[1.75rem] text-left"> Quick Links</h3>
         <div className="flex flex-col gap-[.3rem]">
-          <a href="/" className="text-secondary font-poppins text-[0.85rem] font-normal leading-[1.31rem]">Home</a>
-          <a href="/news" className="text-secondary font-poppins text-[0.85rem] font-normal leading-[1.31rem] ">News</a>
-          <a href="/research" className="text-secondary font-poppins text-[0.85rem] font-normal leading-[1.31rem] ">Research</a>
-          <a href="/contact" className="text-secondary font-poppins text-[0.85rem] font-normal leading-[1.31rem]">Contact</a>
-          <a href="/FAQ" className="text-secondary font-poppins text-[0.85rem] font-normal leading-[1.31rem]">FAQ</a>
+          <Link href="/" className="text-secondary font-poppins text-[0.85rem] font-normal leading-[1.31rem]">Home</Link>
+          <Link href="/about" className="text-secondary font-poppins text-[0.85rem] font-normal leading-[1.31rem] ">About</Link>
+          <Link href="/#contact" className="text-secondary font-poppins text-[0.85rem] font-normal leading-[1.31rem]">Contact</Link>
+          <Link href="/#faqs" className="text-secondary font-poppins text-[0.85rem] font-normal leading-[1.31rem]">FAQ</Link>
         </div>
       </div>
       <div className="flex flex-col gap-[.8rem] w-[15%] md:w-[100%]">
-        <h3 className=" text-secondary font-poppins text-[1rem] font-semibold leading-[1.75rem] text-left">Quick Links</h3>
+        <h3 className=" text-secondary font-poppins text-[1rem] font-semibold leading-[1.75rem] text-left">Services</h3>
         <div className="flex flex-col gap-[.3rem]">
-          <a href="/" className="text-secondary font-poppins text-[0.85rem] font-normal leading-[1.31rem]">Home</a>
-          <a href="/news" className="text-secondary font-poppins text-[0.85rem] font-normal leading-[1.31rem] ">News</a>
-          <a href="/research" className="text-secondary font-poppins text-[0.85rem] font-normal leading-[1.31rem] ">Research</a>
-          <a href="/contact" className="text-secondary font-poppins text-[0.85rem] font-normal leading-[1.31rem]">Contact</a>
-          <a href="/FAQ" className="text-secondary font-poppins text-[0.85rem] font-normal leading-[1.31rem]">FAQ</a>
+          <Link href="/services/medical-billing-services" className="text-secondary font-poppins text-[0.85rem] font-normal leading-[1.31rem]">Medical Billing </Link>
+          <Link href="/services/medical-coding-service" className="text-secondary font-poppins text-[0.85rem] font-normal leading-[1.31rem]">Medical Billing Audit </Link>
+          <Link href="/services/medical-coding-service" className="text-secondary font-poppins text-[0.85rem] font-normal leading-[1.31rem] ">Medical Coding </Link>
+          <Link href="/services/medical-credentialing-service" className="text-secondary font-poppins text-[0.85rem] font-normal leading-[1.31rem] ">Credentialing </Link>
+          <Link href="/services/rcm" className="text-secondary font-poppins text-[0.85rem] font-normal leading-[1.31rem]">RCM</Link>
+          <Link href="/services/healthcare-seo" className="text-secondary font-poppins text-[0.85rem] font-normal leading-[1.31rem]">Healthcare Seo</Link>
         </div>
       </div>
 
@@ -68,13 +68,13 @@ const Footer = () => {
         {/* <h3 className="text-secondary font-poppins text-[1rem] font-semibold leading-[1.75rem] text-left">Follow Us</h3>
         <div className="flex gap-[1rem] size-50">
           <div className='bg-white rounded-full p-[.5rem]'>
-            <a href="facebook.com">{footerIcons.fb}</a>
+            <Link href="facebook.com">{footerIcons.fb}</Link>
           </div>
           <div className='bg-white rounded-full  p-[.5rem] '>
-          <a href="instagram.com">{footerIcons.insta}</a>
+          <Link href="instagram.com">{footerIcons.insta}</Link>
           </div>
           <div className='bg-white rounded-full p-[.5rem]'>
-          <a href="linkedin.com">{footerIcons.linkedIn}</a>
+          <Link href="linkedin.com">{footerIcons.linkedIn}</Link>
           </div>
         </div> */}
         <h3 className="text-secondary font-poppins text-[1rem] font-semibold leading-[1.75rem] text-left">Newsletter Signup</h3>

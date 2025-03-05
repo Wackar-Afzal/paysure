@@ -12,7 +12,7 @@ import Bookdemo from "@/components/bookdemo/Bookdemo";
 
 const content = {
   card_per_row:3,
-  h1:"Our Medical Coding Services",
+  h1:"Our Medical Billing Services",
   p1:"Our leading medical billing company has revolutionized healthcare billing solutions by replacing outdated, error-prone practice management  procedures with smart, electronic medical billing services and clinical billing and accounts management solutions for all specialties.",
   p2:"The results? Fast reimbursements, accurate claim transmission, better  patient care and smooth cash flow while adhering to HIPAA-compliant  patient claims billing principles. PaySure's medical billing management services make them the perfect ten for full billing services, including:",
 

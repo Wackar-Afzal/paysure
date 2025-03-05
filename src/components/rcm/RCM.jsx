@@ -54,7 +54,7 @@ export default function RCM() {
                 Based on a 4.8-star rating from 350+ providers across the states.
               </p>
               <Link
-                href="/testimonials" 
+                href="/#reviews" 
                 className="text-secondary hover:text-primary/80 font-medium inline-flex items-center"
               >
                 See testimonials →

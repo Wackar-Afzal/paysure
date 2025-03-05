@@ -67,8 +67,19 @@ module.exports = {
       backgroundColor:{
         modalBG:"#00000099"
       },
+
+      shadowPulse: {
+        "0%, 100%": {
+          boxShadow:"rgba(52, 185, 232, 0.4) -5px 5px, rgba(52, 185, 232, 0.3) -10px 10px, rgba(52, 185, 232, 0.2) -15px 15px, rgba(52, 185, 232, 0.1) -20px 20px, rgba(52, 185, 232, 0.05) -25px 25px",
+        },
+        "50%": {
+          boxShadow:"rgba(52, 185, 232, 0.7) -5px 5px, rgba(52, 185, 232, 0.5) -10px 10px, rgba(52, 185, 232, 0.3) -15px 15px, rgba(52, 185, 232, 0.2) -20px 20px, rgba(52, 185, 232, 0.1) -25px 25px",
+        },
+      },
       
     },
   },
   plugins: [],
 }
+
+

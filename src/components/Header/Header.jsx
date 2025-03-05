@@ -36,7 +36,7 @@ const Header = () => {
         </Link>
       </div>
 
-      <div className='flex space-x-14 items-center md:space-x-0'>
+      <div className='flex  items-center gap-4'>
         <div className='flex items-center space-x-8 md:hidden relative'>
 
           <Link className={pathname === '/' ? "text-primary" : "text-gray-600"} href={'/'}>Home</Link>
@@ -71,6 +71,7 @@ const Header = () => {
           <Link className={pathname === '/#faqs' ? "text-primary" : "text-gray-600"} href={'/#faqs'}>FAQ</Link>
 
         </div>
+        <Link href={'/#contact'} className='xs:!hidden btn !text-[0.8rem] md:!text-[0.6rem] animate-shadowPulse'>Talk To An Expert →</Link>
       </div>
     </div>
   )

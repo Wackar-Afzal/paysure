@@ -5,7 +5,7 @@ const Work = () => {
     <>
     <div className="p-4 pt-8 md:hidden">
         <h1 className="text-center mb-16">How our Billing Process Works?</h1>
-        <img src="./work.png"/>
+        <img src="/work.png"/>
     </div>
     <div className=" flex-col gap-4 p-4 hidden md:flex">
     <h1 className="text-center m-8 md:text-left">How our Billing Process Works?</h1>

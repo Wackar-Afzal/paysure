@@ -37,7 +37,7 @@ const Homebaner2 = () => {
             Denied claims are appealed and reprocessed successfully.
           </li>
 
-          <Link className="btn mt-4 w-[max-content] xs:text-[14px]" href="/contact">
+          <Link className="btn mt-4 w-[max-content] xs:text-[14px]" href="/#contact">
             Book Free Consultation
           </Link>
         </div>
@@ -80,7 +80,7 @@ const Homebaner2 = () => {
               transcription and billing company makes claims and repayments
               happen, period!
             </p>
-            <Link className="text-primary text-[18px] font-medium underline" href="/contact">Ok.. I am interested, but first provide me a FREE BILLING DEMO→</Link>
+            <Link className="text-primary text-[18px] font-medium underline" href="/#contact">Ok.. I am interested, but first provide me a FREE BILLING DEMO→</Link>
           </div>
         </div>
       </div>

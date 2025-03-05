@@ -12,7 +12,7 @@ const Bookdemo = () => {
                 <h2 className="text-left  text-white">Lets experience our medical billing services for as low as 2.49%</h2>
                 <p className="mb-2">Over 1500 medical practices trust BellMedEx  medical billing services company. So let's have a chat.</p>
                 </div>
-                    <Link className="btn min-w-[max-content] " href='/contact'>Book Demo</Link>
+                    <Link className="btn min-w-[max-content] " href='/#contact'>Book Demo</Link>
                 </div>
                 <hr className="bg-white m-4"/>
      
