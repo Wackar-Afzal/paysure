@@ -22,11 +22,11 @@ export default function RCM() {
       <div className="flex items-center justify-evenly gap-6 lg:flex-col lg:space-y-4">
         <div className="space-y-8 w-[45%] lg:w-full">
           <h3 className="font-bold tracking-tight text-left">
-            The Only <span className="text-primary">Medical Billing Company</span> Uniting Tech & Expertise to Meet Provider's Vision
+            The Only <span className="text-primary">Medical Billing Company</span> Integrating Technology and Expertise to Fulfill Providers' Vision
           </h3>
           
           <p className="text-lg text-gray-600">
-            Our USA-based healthcare revenue cycle management company helps individual and institutional providers navigate the tight spots of patient billing and coding via modern medical billing services.
+          Our U.S.-based healthcare revenue cycle management company assists individual and institutional providers in streamlining patient billing and coding through advanced medical billing services.
           </p>
 
           <div className="flex gap-4 flex-wrap sm:flex-col">

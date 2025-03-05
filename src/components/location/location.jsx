@@ -27,7 +27,7 @@ function Location() {
           <div className="">
             <h2 className="text-[22px] font-bold">Nationwide Availability</h2>
             <p className="text-gray-600">
-              As a top medical billing services company in the USA, PaySure helps US providers succeed financially. Our American workforce has the payer knowledge to maximize billing claims reimbursement in all 50 states.
+            As a leading U.S. medical billing company, PaySure empowers providers with expert payer knowledge to maximize claim reimbursements nationwide.
             </p>
           </div>
 
@@ -56,7 +56,7 @@ function Location() {
           <div className="">
             <h2 className=" font-bold text-[22px] p-0">Affordable Pricing</h2>
             <p className="text-gray-600">
-              Save over in-house billing with our affordable 2.49% collections rate, pay-for-paid model, free EMR software, scalability, and free denied claims appeals. Outsource to us for billing optimization with complimentary perks like:
+            Reduce in-house billing costs with our 2.49% collection rate, pay-for-paid model, free EMR software, scalable solutions, and complimentary denied claims appeals. Outsource to us for streamlined billing and exclusive perks, including:
             </p>
           </div>
 

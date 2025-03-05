@@ -16,13 +16,13 @@ const Homebaner2 = () => {
             SECURE CLAIM DATA TRANSMISSION
           </p>
           <li className="text-left text-[13px] mb-6">
-            Safest digital encryption protects sensitive patient data.
+            Secure digital encryption protects sensitive patient data.
           </li>
           <p className=" text-primary text-left font-semibold mb-1">
             INCREASE REVENUE
           </p>
           <li className="text-left text-[13px] mb-6">
-            Get full payments, without unfair cuts by the insurance networks.
+            Receive full payments without unfair deductions from insurance networks.
           </li>
           <p className=" text-primary text-left font-semibold mb-1">
             INSTANT CLAIM SUBMISSION
@@ -34,7 +34,7 @@ const Homebaner2 = () => {
             CLAIM FOLLOW-UP & RESOLUTION
           </p>
           <li className="text-left text-[13px] mb-6">
-            Denied claims are appealed and reprocessed successfully.
+            Denied claims are effectively appealed and reprocessed.
           </li>
 
           <Link className="btn mt-4 w-[max-content] xs:text-[14px]" href="/#contact">
@@ -46,39 +46,23 @@ const Homebaner2 = () => {
       <div className="flex gap-6 lg:flex-col pt-4">
         <div className="w-[45%] lg:w-full">
           <h3 className="text-left text-white mb-4">
-            The billing firm that does medical claims processing
+            A medical billing firm specializing in claims processing.
           </h3>
           <p className="">
-            Management of billing claims poses difficulties for providers
-            pursuing timely submissions and full remittance for care given. But
-            take heart – our niche medical billing services ease the way.</p>
+          Managing billing claims is challenging for providers seeking timely submissions and full reimbursement. Our specialized medical billing services simplify the process.</p>
             <br></br>
             <p>
-            We optimize each invoicing phase, armed with clinical knowledge and
-            zeal for first-class claims processing. Cloud tech validates a
-            patient’s insurance eligibility right away and file claims
-            electronically to quicken payments. Plus, our expert billers ensure
-            every claim reaches the insurer to obtain full provider
-            reimbursements.</p>
+            We optimize every stage of invoicing with clinical expertise and a commitment to excellence in claims processing. Our advanced cloud technology instantly verifies insurance eligibility and submits claims electronically for expedited payments. Experienced billers ensure accurate claim submission, maximizing provider reimbursements.</p>
 
           
         </div>
         <div className="w-[45%] lg:w-full">
           <div>
             <h3 className="text-white text-left mb-4">
-              When “good enough” isn’t enough, you need a specialized medical
-              billing agency.
+            When excellence is essential, rely on a specialized medical billing agency.
             </h3>
             <p className="mb-4">
-              As a leading medical billing services provider, our billing firm
-              wrings every last dollar from a provider’s claims via 24/7 billing
-              cycle oversight. We’re experts on the big commercial ones, Aetna
-              and Blue Cross Blue Shield. We know the government plans inside
-              and out, Medicare and Medicaid. We work hand in glove with the top
-              payers so the provider billing reimbursement forms like CMS-1500,
-              CMS-1450 (UB-04), and CMS-1728-20 are shipshape. BellMedEx medical
-              transcription and billing company makes claims and repayments
-              happen, period!
+            As a leading medical billing services provider, we optimize claim reimbursements with 24/7 billing cycle management. Our expertise covers major commercial insurers, including Aetna and Blue Cross Blue Shield, as well as government programs like Medicare and Medicaid. We collaborate closely with top payers to ensure precise, compliant submission of billing forms such as CMS-1500, CMS-1450 (UB-04), and CMS-1728-20. At PaySure, we streamline claims processing for accurate and timely reimbursements.
             </p>
             <Link className="text-primary text-[18px] font-medium underline" href="/#contact">Ok.. I am interested, but first provide me a FREE BILLING DEMO→</Link>
           </div>

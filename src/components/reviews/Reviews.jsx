@@ -3,9 +3,9 @@ import React, { useState, useEffect } from 'react';
 
 export const aboutPageData = [
   {
-    description: '“Working with this team has completely transformed our business operations...”',
-    name: 'Kristin Watson',
-    status: 'CEO, Tech Innovators',
+    description: '“We are more than satisfied with BellMedEx and would highly recommend them to anyone searching for an efficient billing company. Working with BellMedEx has felt effortless and we are vastly thankful for their services.”',
+    name: 'Dr Gennaya Matt*** ',
+    status: 'Plastic Surgeon',
     img: '/profile.png',
   },
   {
