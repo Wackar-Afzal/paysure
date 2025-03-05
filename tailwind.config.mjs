@@ -68,12 +68,15 @@ module.exports = {
         modalBG:"#00000099"
       },
 
-      shadowPulse: {
-        "0%, 100%": {
-          boxShadow:"rgba(52, 185, 232, 0.4) -5px 5px, rgba(52, 185, 232, 0.3) -10px 10px, rgba(52, 185, 232, 0.2) -15px 15px, rgba(52, 185, 232, 0.1) -20px 20px, rgba(52, 185, 232, 0.05) -25px 25px",
-        },
-        "50%": {
-          boxShadow:"rgba(52, 185, 232, 0.7) -5px 5px, rgba(52, 185, 232, 0.5) -10px 10px, rgba(52, 185, 232, 0.3) -15px 15px, rgba(52, 185, 232, 0.2) -20px 20px, rgba(52, 185, 232, 0.1) -25px 25px",
+      animation: {
+        shadowPulse: "shadowPulse 2s infinite ease-in-out",
+      },
+      keyframes: {
+        shadowPulse: {
+         
+          "30%": { boxShadow: "5px 2px 15px rgba(52, 185, 232, 0.6)" },
+          "50%": { boxShadow: "5px 2px 15px rgba(255, 255, 255, 0.9)" },
+          "70%": { boxShadow: "5px 2px 15px rgba(48, 72, 132, 0.9)" },
         },
       },
       
@@ -81,5 +84,6 @@ module.exports = {
   },
   plugins: [],
 }
+
 
 

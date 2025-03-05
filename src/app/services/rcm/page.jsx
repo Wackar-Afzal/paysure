@@ -4,14 +4,15 @@ import Banner from "@/components/HomeComponents/Banner/Banner";
 import Why from "@/components/Why/Why";
 import {workicons} from "@/assets/icons"
 import Bookdemo from "@/components/bookdemo/Bookdemo";
+import RevenuCycle from "@/components/RevenuCycle/RevenuCycle";
 
 
 const page = () => {
     const data={
         h1_1:"PaySure",
-        span:"Medical Revenue Cycle Management Service",
+        span:"Revenue Cycle Management Service",
         // h1_2:"with Accuracy & Trust",
-        p:"Medical Revenue Service by BellMedEx, generates and collects payments for the services a provider provides to their patients. It’s a complete RCM solution managing end-to-end RCM operations like patient registration, insurance verification, coding, billing, and collections. Our RCM billing company optimizes revenue cycle for better financial outcomes of the physician’s medical center.",
+        p:"Medical Revenue Service by BellMedEx streamlines end-to-end RCM operations to maximize provider payments and financial outcomes.",
         button:true,
         // backgroundimg:"../assets/banner.png"
         backgroundimg:"/banner.png"
@@ -26,10 +27,10 @@ const page = () => {
         p:"Managing a medical practice’s finances is complex. Between evolving regulations, strict insurance policies, and patients with expectations higher than Mt. Everest – it’s a recipe for revenue leakage, cash flow disaster, and operational chaos. Luckily, the medical revenue cycle management (RCM) experts at BellMedEx can restore your practice to full financial health. Our certified coders ensure accurate billing and coding to stop revenue leakage. Our enrollment specialists secure contracts with top commercial payers to expand your patient pool. And our billing experts work diligently to collect every dollar your practice earns. So don’t let medical finances frustrate you. BellMedEx Medical Revenue Service has the cure for what ails your practice’s finances. Call today to experience how we align a provider’s whole revenue cycle process to maximize collections while delighting patients.",
       }
   
-      const content2 = {
+      const content = {
         card_per_row:3,
-       h1:"Our Value-Added Services",
-       p1:"HMS provides the most comprehensive and profound medical billing services in the industry. We go above and beyond to ensure that our clients receive maximum reimbursement for their services.",
+       h1:"PaySure way of Transforming Medical Billing Services for Small Practices",
+       p1:"PaySure is the leading medical billing services company that delivers a reliable, swift, and reasonable pricing model to ensure that your practice gets the maximum reimbursement possible. We are a team of certified professional billers and coders covering every aspect of RCM billing services with utmost accuracy and efficiency.",
        p2:"",
        "bannerIcons": {
          "billblack": workicons.medBilling,
@@ -42,23 +43,39 @@ const page = () => {
          {
            "icon": "billblack",
            "link": "",
-           "title": "TMS Credentialing with High Reimbursement",
-           "description": "We arrange your price structure to bring you the best tms reimbursement rates on every contract we get. Most importantly, our approach is frictionless, and we keep you updated every other week with a complete summary report."
+           "title": "Patient Preauthorization",
+           "description": "With our RCM billing services, you will get prior authorization from the insurance to perform a procedure and get reimbursement accordingly."
          },
          {
-           img:"/aboutImg1.png",
            "icon": "revenue",
            "link": "",
-           "title": "External lol Coding Audits",
-           "description": "Our medical coding auditor helps medical providers identify the ICD 10 and CPT coding discrepancies and suggest modifications after reviewing coding charts."
+           "title": "Eligibility & Benefits Verification",
+           "description": "Our medical billing experts perform patient eligibility & benefits verification to confirm insurance coverage for complete reimbursements."
          },
          {
            "icon": "clock",
            "link": "",
-           "title": "New Practice Credentialing",
-           "description": "For new providers to start a successful medical practice, our new practice credentialing enables them to start from scratch. With HMS, you can quickly begin your journey by getting successfully enrolled with all the major payers."
+           "title": "Claim Submission",
+           "description": "Enable a 99% claim success ratio with PaySure clean claim submission process. Our coding and billing experts ensure your claims get paid accurately."
          },
-       
+         {
+           "icon": "healthcare",
+           "link": "",
+           "title": "Payment Posting",
+           "description": "Our experts proactively perform insurance payment posting and patient payments in medical billing software to streamline the practice cash flow."
+         },
+         {
+           "icon": "healthcare",
+           "link": "",
+           "title": "A/R Follow-Up & Denial Management",
+           "description": "We continuously perform follow-ups for effective denial management to keep track of your A/R to improve the collections rate."
+         },
+         {
+           "icon": "healthcare",
+           "link": "",
+           "title": "Medical Billing Audit",
+           "description": "PaySure medical billing audit helps you track and improve the claim processing and payment posting to maximize your practice revenue."
+         }
        ]
      }
      const dataWhy={
@@ -67,9 +84,10 @@ const page = () => {
   return (
     <div>
         <Banner data={data}/>
-        <AboutBanner aboutBanner={aboutBanner} imgRight={true}/>
+        <AboutBanner aboutBanner={aboutBanner} imgRight={false}/>
+        <RevenuCycle/>
         <Why/>
-        <About content={content2} showbuttons={false} />
+        <About content={content} showbuttons={false} />
         <Bookdemo/>    
 
     </div>

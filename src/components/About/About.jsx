@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 const About = ({ content,showbuttons}) => {
-  console.log(content,"content")
   return (
     <div className="flex space-y-10 flex-col py-[6rem] px-[4rem]  justify-center items-center w-full md:py-[3rem] md:p-MXpad">
       <h1 className="text-center">

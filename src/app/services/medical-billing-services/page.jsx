@@ -8,6 +8,7 @@ import Homebaner2 from "@/components/homebnaaer2/Homebanner2";
 import {  home2ndbannericons  } from "@/assets/icons";
 import Offers from "@/components/offers/Offers";
 import Bookdemo from "@/components/bookdemo/Bookdemo";
+import FooterMessage from "@/components/FooterMessage/FooterMessage";
 
 
 const content = {
@@ -49,7 +50,8 @@ const Page = () => {
         <Why />
         <Work />
         <Offers/>
-        <Bookdemo/>
+        <FooterMessage/>
+
       </div>
     </div>
   );

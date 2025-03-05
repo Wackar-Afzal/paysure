@@ -9,9 +9,9 @@ import Bookdemo from "@/components/bookdemo/Bookdemo";
 const page = () => {
     const data={
         h1_1:"Quality First",
-        span:"Medical Coding Service",
+        span:"Medical Credentialing Services",
         // h1_2:"with Accuracy & Trust",
-        p:"Our medical coding services cover all claims' coding to remove inaccuracies and boost reimbursements.",
+        p:"PaySure enables you to get credentialed with commercial and non-commercial insurances.",
         button:true,
         // backgroundimg:"../assets/banner.png"
         backgroundimg:"/banner.png"
