@@ -3,41 +3,36 @@ import React, { useState, useEffect } from 'react';
 
 export const aboutPageData = [
   {
-    description: '“We are more than satisfied with BellMedEx and would highly recommend them to anyone searching for an efficient billing company. Working with BellMedEx has felt effortless and we are vastly thankful for their services.”',
-    name: 'Dr Gennaya Matt*** ',
-    status: 'Plastic Surgeon',
+    description: '“I would like to send out a heartfelt appreciation for all of your hard work in helping my Health Counselling clinic take care of our billing and credentialing needs. You have made my job as a practice owner much easier.”',
+    name: 'Dr. Julia Will',
+    status: 'Licensed Professional Counselor',
     img: '/profile.png',
   },
   {
-    description: '“The level of support and expertise provided by this company is simply unmatched...”',
-    name: 'Michael Johnson',
-    status: 'Marketing Director, Creative Solutions',
+    description: '“We are more than satisfied with PaySure and would highly recommend them to anyone searching for an efficient billing company. Working with PaySure has felt effortless and we are vastly thankful for their services.”',
+    name: 'Dr. Gennaya Matt',
+    status: 'Plastic Surgeon',
     img: '/t1.png',
   },
   {
-    description: '“I have never encountered a team as dedicated and professional as this one...”',
-    name: 'Emily Davis',
-    status: 'Founder, StartUp Ventures',
+    description: '“PaySure has been a phenomenal asset to our company. Assisting with billing, credentialing and enrollment, PaySure has been consistently reliable from the first day of our relationship.”',
+    name: 'Dr. Mike Lan',
+    status: 'Internal Specialist Medicine',
     img: '/t2.png',
   },
   {
-    description: '“Their innovative approach and meticulous attention to detail made a significant impact...”',
-    name: 'David Brown',
-    status: 'Project Manager, BuildRight',
+    description: '“My Behavioral Health practice started receiving medical billing services in July 2022, and we have experienced a great deal of improvement in the collections of claims, which has improved our bottom line.”',
+    name: 'Dr. Belen Bur',
+    status: 'Psychiatrist',
     img: '/profile.png',
   },
   {
-    description: '“From the moment we engaged with them, I felt reassured that we were in capable hands...”',
-    name: 'Sarah Smith',
-    status: 'Operations Manager, Future Tech',
+    description: '“Our medical facility has been working with PaySure for about 2 years now and we are very pleased with their services. PaySure Medical Billing is a great company for billing needs. The customer support is great.”',
+    name: 'Tiida B',
+    status: 'Catonsville, Maryland',
     img: '/profile.png',
   },
-  {
-    description: '“My experience with this team has been absolutely fantastic!...”',
-    name: 'John Doe',
-    status: 'CTO, Innovative Solutions',
-    img: '/profile.png',
-  },
+  
 ];
 
 const Reviews = () => {
