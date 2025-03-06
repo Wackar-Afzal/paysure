@@ -6,8 +6,8 @@ const Offers = () => {
     <div className="flex justify-center items-center p-8 bg-lightGrey">
     <div className="text-center w-[70vw]">
     <h4 className="text-center text-primary">WHAT DO WE OFFER</h4>
-    <h2 className="text-center">PaySure Top Rated Billing Consultancy Group Is Here for Medical Billing Help</h2>
-    <p className="text-center mt-4">Our billing teams are more than just billers. We are every USA provider’s best-managed billing partner. Our medical billing advocates partner with physicians to improve their practice management and achieve sustainable growth. Here is how PaySure healthcare billing consultancy group is helping practices with patient billing:</p>
+    <h2 className="text-center">PaySure – Your Trusted Partner for Expert Medical Billing Support.</h2>
+    <p className="text-center mt-4">Our billing teams are more than billers—we are strategic partners in revenue management. PaySure’s expert consultants help healthcare providers optimize practice operations and achieve sustainable growth. Here’s how we enhance patient billing:</p>
     </div>
     </div>
     <div className="flex justify-center  flex-wrap p-8 gap-4  "> 

@@ -14,8 +14,8 @@ import FooterMessage from "@/components/FooterMessage/FooterMessage";
 const content = {
   card_per_row:3,
   h1:"Our Medical Billing Services",
-  p1:"Our leading medical billing company has revolutionized healthcare billing solutions by replacing outdated, error-prone practice management  procedures with smart, electronic medical billing services and clinical billing and accounts management solutions for all specialties.",
-  p2:"The results? Fast reimbursements, accurate claim transmission, better  patient care and smooth cash flow while adhering to HIPAA-compliant  patient claims billing principles. PaySure's medical billing management services make them the perfect ten for full billing services, including:",
+  p1:"PaySure is a leading medical billing consulting firm specializing in revenue cycle optimization. Our expert consultants work closely with healthcare providers to identify inefficiencies, reduce claim denials, and expedite reimbursements for sustained financial success.",
+  p2:"Our medical billing consulting group offers strategic guidance and hands-on support to enhance billing processes, technology, and staff proficiency. Our expert solutions empower healthcare practices to thrive with greater efficiency, accuracy, and financial success.",
 
   "bannerIcons": {
     "billblack": home2ndbannericons.billblack,
