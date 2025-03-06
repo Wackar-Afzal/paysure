@@ -8,11 +8,11 @@ const RevenuCycle = () => {
             </div>
         <div className='flex flex-col space-y-6'> 
           <div className='flex flex-col space-y-5 w-full'>
-          <h3 className='text-left text-[31px]'>BellMedEx offers revenue cycle care, with billing at its core</h3>
-          <p className='text-grey w-[50vw] md:w-full'>Our unique approach to medical billing is how BellMedEx RCM Service delivers measurable improvements to the revenue cycle process. The SmartClaim system we developed in-house analyzes billing codes and clinical documentation to catch issues before claim submission. This technology achieves first-time acceptance rates upwards of 98%, putting money back in our providers’ pockets faster.</p>
+          <h3 className='text-left text-[31px]'>PaySure offers revenue cycle care, with billing at its core</h3>
+          <p className='text-grey w-[50vw] md:w-full'>PaySure RCM Service optimizes the revenue cycle through a sophisticated approach. Our proprietary SmartClaim system analyzes billing codes and clinical documentation, identifying potential issues before claim submission. This advanced technology ensures first-time acceptance rates exceeding 98%, accelerating reimbursement and maximizing revenue for providers.</p>
           </div>
            <Link href={"/#contact"} className='!bg-transparent  !text-secondary px-[1rem] underline my-4' >
-           Click here to book BellMedEx medical billing RCM service</Link>
+           Click here to schedule your PaySure Medical Billing RCM service.</Link>
         </div>
     
     

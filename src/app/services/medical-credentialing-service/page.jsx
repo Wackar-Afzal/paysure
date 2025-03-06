@@ -17,18 +17,18 @@ const page = () => {
         backgroundimg:"/banner.png"
       }
       const aboutBanner={
-        button:"call us",
+        button:"Contact Us",
         img:"/aboutImg1.png",
         // subH:"We Offer",
-        h_1:"Medical Coding and Auditing",
-        hspan:"Doctors",
+        h_1:"Provider Enrollment & Credentialing",
+        hspan:"",
         h_2:"",
-        p:"With quality medical coding and auditing, our AAPC and AHIMA certified coding specialists perform medical coding audits to mitigate inaccuracies and denials. HMS coding experts conduct independent coding reviews for practices to reduce the level of rebuttals they receive from payers.Based on the granular chart review, we empower healthcare providers with the knowledge and tools to optimize the medical coding process while educating them about services they can bill to insurance. With medical coding services, we PLUG revenue leaks that most practices are unaware of, instantly boosting their monthly reimbursement.Our focus is on quality and accuracy to help ensure that our clients receive the reimbursement they are entitled to. We also offer educational services to healthcare providers to learn about the different services that they can bill to insurance companies. Our goal is to help practices optimize their medical coding process and improve their bottom line.",
+        p:"PaySure offers a comprehensive and efficient credentialing solution, ensuring smooth enrollment with all payers while maintaining full regulatory compliance. Our expert team manages the entire process, from gathering and submitting provider enrollment documents to maintaining ongoing data accuracy, including CAQH profile updates. We stay up to date with evolving payer requirements and regulatory standards, reducing the risk of delays, denials, or compliance issues. Our proactive follow-up approach ensures that applications progress without unnecessary hold-ups, expediting approvals and allowing providers to begin billing as soon as possible. By handling administrative burdens, PaySure enables healthcare providers to focus on delivering high-quality patient care while maximizing reimbursements and maintaining seamless payer relationships.",
       }
       const content = {
          card_per_row:3,
         h1:"Our Medical Credentialing Services",
-        p1:"You are a new provider or want to get re-credentialed with insurance companies. We offer medical credentialing services to alleviate your hassles with the provider enrollment process.",
+        p1:"If you're a new provider or need re-credentialing, our expert services simplify the enrollment process, ensuring quick and hassle-free insurance approvals.",
         p2:"",
         "bannerIcons": {
           "billblack": workicons.medBilling,
@@ -42,38 +42,38 @@ const page = () => {
             "icon": "billblack",
             "link": "",
             "title": "Recredentialing",
-            "description": "We periodically review and verify credentialing status to get you re-credentialed on time, so you don't have to face insurance denials."
+            "description": "We continuously monitor and verify your credentialing status to ensure timely re-credentialing and prevent insurance denials."
           },
           {
            
             "icon": "revenue",
             "link": "",
             "title": "Licensing",
-            "description": "Our provider enrollment and credentialing services help you get essential certifications, accreditations, and licenses to enroll with insurance successfully."
+            "description": "Our provider enrollment and credentialing services ensure you obtain the necessary certifications, accreditations, and licenses for successful insurance enrollment."
           },
           {
             "icon": "clock",
             "link": "",
             "title": "Enrollment for Electronic Transactions",
-            "description": "HMS gets you authorized with all the payers that allow you to send EDI, ERA, and EFT transactions without any inconvenience."
+            "description": "PaySure gets you authorized with all the payers that allow you to send EDI, ERA, and EFT transactions without any inconvenience."
           },
           {
             "icon": "clock",
             "link": "",
             "title": "Accreditation",
-            "description": "HMS accreditation services enable your practice to get formal recognition and affiliation to reduce enrollment holds with insurance agencies."
+            "description": "PaySure streamlines authorization with all payers, ensuring smooth EDI, ERA, and EFT transactions without hassle."
           },
           {
             "icon": "clock",
             "link": "",
             "title": "IPA Enrollment",
-            "description": "Our credentialing consultants ensure to enroll you with insurances through the Integrated Provider Associations (IPA) on close panels."
+            "description": "Our credentialing consultants facilitate your enrollment with insurance companies through Integrated Provider Associations (IPA) on closed panels."
           },
           {
             "icon": "clock",
             "link": "",
             "title": "Contract Renegotiation",
-            "description": "We negotiate with the insurance companies on your behalf to improve your contracted amount and enhance your practice reimbursement."
+            "description": "We negotiate with insurance companies on your behalf to secure better contract rates and maximize your practice reimbursements."
           },
         
         ]
@@ -81,7 +81,7 @@ const page = () => {
       const content2 = {
         card_per_row:3,
        h1:"Our Value-Added Services",
-       p1:"HMS provides the most comprehensive and profound medical billing services in the industry. We go above and beyond to ensure that our clients receive maximum reimbursement for their services.",
+       p1:"PaySure delivers superior medical billing services, ensuring maximum reimbursement through precision, efficiency, and industry expertise.",
        p2:"",
        "bannerIcons": {
          "billblack": workicons.medBilling,
@@ -94,8 +94,8 @@ const page = () => {
          {
            "icon": "billblack",
            "link": "",
-           "title": "TMS Credentialing with High Reimbursement",
-           "description": "We arrange your price structure to bring you the best tms reimbursement rates on every contract we get. Most importantly, our approach is frictionless, and we keep you updated every other week with a complete summary report."
+           "title": "TMS Credentialing for Maximum Reimbursement.",
+           "description": "We strategically structure your pricing to secure the highest TMS reimbursement rates across all contracts. Our streamlined process includes bi-weekly updates, delivering comprehensive summary reports to keep you informed."
          },
          {
            img:"/aboutImg1.png",
@@ -108,7 +108,7 @@ const page = () => {
            "icon": "clock",
            "link": "",
            "title": "New Practice Credentialing",
-           "description": "For new providers to start a successful medical practice, our new practice credentialing enables them to start from scratch. With HMS, you can quickly begin your journey by getting successfully enrolled with all the major payers."
+           "description": "Our new practice credentialing service is designed to facilitate a smooth and efficient practice launch. With PaySure, you can quickly secure enrollment with all major payers, ensuring a strong foundation for your medical practice’s success."
          },
        
        ]

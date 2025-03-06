@@ -15,7 +15,7 @@ const Page = () => {
     // h1_1:"About Us",
     span:"About Us",
     // h1_2:"Accuracy you can trust",
-    p:"PaySure,  is more than a medical billing company. We are your collaborator in the art of health care. Our expert staff sculpts the fine details of your billing process, from coding and denial management to fast reimbursement and follow-up. We wield the tools and techniques to shape any billing challenge, regardless of the scale or specialty of your practice. With PaySure, you can drop the mic on billing woes and bask in the spotlight of patient care.",
+    p:"PaySure is more than just a medical billing company – we are your partner in the healthcare journey. Our expert team refines every aspect of your billing process, from coding and denial management to ensuring fast reimbursement and effective follow-up. With the right tools and techniques, we tackle any billing challenge, no matter the scale or specialty of your practice. With PaySure, you can leave billing headaches behind and focus on what truly matters – exceptional patient care.",
     button:false,
     backgroundimg:"/aboutheader2.png"
   }
@@ -25,7 +25,7 @@ const Page = () => {
     h_1:"Joining Hands With",
     hspan:"Doctors",
     h_2:"",
-    p:"Doctor are the heroes of health, but billing is their kryptonite. That’s the harsh reality that many doctors face when they deal with complexities and risks of medical billing and coding. They are meant to be the healers of humanity, but they often end up in hot water due to non-compliance, errors, fines, penalties, and audits. That’s why we decided to transform the medical billing industry with our cutting-edge and trustworthy solutions. We crack the hard nuts of billing and coding, so that providers can focus on healing, while we manage their billing. Our medical billing solutions have helped 1000+ providers, who were once up to their neck in trouble, optimize their processes and ramp up their cash flow.",
+    p:"Doctors play a critical role in patient care, but medical billing often presents a significant challenge. The complexities of billing and coding, combined with the risk of non-compliance, errors, fines, and audits, can divert their attention from what matters most—providing excellent care. At PaySure, we provide innovative and trustworthy medical billing solutions that handle these complexities for you. Our team of experts manages all aspects of billing and coding, ensuring accuracy and compliance. This allows healthcare providers to focus on their practice, while we optimize their billing processes to maximize revenue. Over 1,000 providers have benefited from our services, improving cash flow and streamlining their operations, all while avoiding the pitfalls of billing errors and costly audits.",
   }
   return (
     <div>
