@@ -39,7 +39,7 @@ const content = {
       "icon": "revenue",
       "link": "/services/medical-coding-service",
       "title": "Medical Coding Services",
-      "description": "Clinical coding officers accurately translate patient services into ICD-10 and CPT codes, generating precise super-bills to facilitate efficient insurance claim submission."
+      "description": "Clinical coding officers accurately translate patient services into ICD-10 and CPT codes, generating precise super-bills to facilitate efficient insurances claim submission."
     },
     {
       "icon": "clock",
