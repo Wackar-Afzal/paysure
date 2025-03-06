@@ -9,6 +9,7 @@ import {  home2ndbannericons  } from "@/assets/icons";
 import Offers from "@/components/offers/Offers";
 import Bookdemo from "@/components/bookdemo/Bookdemo";
 import FooterMessage from "@/components/FooterMessage/FooterMessage";
+import Banner from "@/components/HomeComponents/Banner/Banner";
 
 
 const content = {
@@ -57,14 +58,23 @@ const why = {
     "Reduce operational costs—no need for in-house billing staff or expensive software"
   ],
   footer: "Partner with us for 24/7 support and seamless medical billing solutions.",
-  image: "/whychoose.png"
+  image: "/whyBillingservice.png"
 };
-
+const data={
+  h1_1:"PaySure",
+  span:"Medical billing services",
+  // h1_2:"with Accuracy & Trust",
+  p:"Medical Revenue Service by PaySure streamlines end-to-end RCM operations to maximize provider payments and financial outcomes.",
+  button:true,
+  // backgroundimg:"../assets/banner.png"
+  backgroundimg:"/medicalbillingservice.jpg"
+}
 
 const Page = () => {
   return (
     <div>
       <div className="flex flex-col mt-[2.3rem] items-center">
+        <Banner data={data}/>
         <About content={content} showbuttons={false}/>
         <Why content={why}/>
         <Work />

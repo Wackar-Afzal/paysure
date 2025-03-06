@@ -21,7 +21,7 @@ const Why = ({content}) => {
         ))}
         <p className="font-bold">{content.footer}</p>
       </div>
-      <div className="w-[45%] h-[90vh] flex justify-center overflow-hidden bg-white rounded-xl lg:w-full lg:h-[50vh]">
+      <div className=" w-[45%]  flex justify-center overflow-hidden bg-white rounded-xl lg:w-full">
         <img className="object-cover" src={content.image} alt="Why Choose Us" />
       </div>
     </div>

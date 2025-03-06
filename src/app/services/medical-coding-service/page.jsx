@@ -14,11 +14,11 @@ const page = () => {
         p:"Our medical coding services cover all claims' coding to remove inaccuracies and boost reimbursements.",
         button:true,
         // backgroundimg:"../assets/banner.png"
-        backgroundimg:"/banner.png"
+        backgroundimg:"/Capture.png"
       }
       const aboutBanner={
         button:"call us",
-        img:"/aboutImg1.png",
+        img:"/Medical-Coding.webp",
         // subH:"We Offer",
         h_1:"Medical Coding and Auditing",
         hspan:"Doctors",
@@ -90,7 +90,7 @@ const page = () => {
           "ICD & CPT expertise for seamless billing",
         ],
         footer: "Partner with us for 24/7 support and seamless medical billing solutions.",
-        image: "/whychoose.png"
+        image: "/whycode.jpg"
       };
       const bookDemoContent = {
         heading: "Lets transform your medical records into accurate, compliant revenue.",

@@ -15,11 +15,11 @@ const page = () => {
         p:"Medical Revenue Service by PaySure streamlines end-to-end RCM operations to maximize provider payments and financial outcomes.",
         button:true,
         // backgroundimg:"../assets/banner.png"
-        backgroundimg:"/banner.png"
+        backgroundimg:"/Capture2.png"
       }
       const aboutBanner={
         // button:"call us",
-        img:"/aboutImg1.png",
+        img:"/rcm2.jpg",
         // subH:"We Offer",
         h_1:"Importance of Choosing PaySure Revenue Cycle Management Service in ",
         hspan:"Medical Billing",
@@ -95,7 +95,7 @@ const page = () => {
         "Reduce operational costs—no need for in-house billing staff or expensive software"
       ],
       footer: "Partner with us for 24/7 support and seamless medical billing solutions.",
-      image: "/whychoose.png"
+      image: "/rcm4.jpg"
     };
     
     const bookDemoContent = {

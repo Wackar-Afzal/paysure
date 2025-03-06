@@ -8,8 +8,8 @@ const Homebaner2 = () => {
         We boost healthcare income with quick, uncut reimbursements!
       </h2>
       <div className="flex gap-6 lg:flex-col ">
-        <div className="w-[45%] h-[40vh] flex justify-center overflow-hidden bg-white rounded-xl lg:w-full lg:h-[50vh]">
-          <img className="object-cover  " src="./whychoose.png" />
+        <div className="w-[45%]  flex justify-center overflow-hidden bg-white rounded-xl lg:w-full lg:h-[50vh]">
+          <img className="object-cover  " src="./medicalclaimsbilling.jpg" />
         </div>
         <div className="w-[45%] text-white p-10 text-left rounded-xl p-4 lg:w-full">
           <p className=" text-primary text-left font-semibold mb-1">

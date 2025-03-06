@@ -14,11 +14,11 @@ const page = () => {
         p:"PaySure enables you to get credentialed with commercial and non-commercial insurances.",
         button:true,
         // backgroundimg:"../assets/banner.png"
-        backgroundimg:"/banner.png"
+        backgroundimg:"/Capture1.png"
       }
       const aboutBanner={
         button:"Contact Us",
-        img:"/aboutImg1.png",
+        img:"/provider.webp",
         // subH:"We Offer",
         h_1:"Provider Enrollment & Credentialing",
         hspan:"",
@@ -98,7 +98,7 @@ const page = () => {
            "description": "We strategically structure your pricing to secure the highest TMS reimbursement rates across all contracts. Our streamlined process includes bi-weekly updates, delivering comprehensive summary reports to keep you informed."
          },
          {
-           img:"/aboutImg1.png",
+           img:"/credentialing_main.jpg",
            "icon": "revenue",
            "link": "",
            "title": "External lol Coding Audits",
@@ -127,7 +127,7 @@ const page = () => {
         "Focus on Patient Care – We manage credentialing so you can prioritize your patients.",
       ],
       footer: "contact us today to learn more or request a free quote!",
-      image: "/whychoose.png"
+      image: "/whycredential.jpg"
     };
     const bookDemoContent = {
       heading: "We empower providers to secure valuable in-network contracts.",

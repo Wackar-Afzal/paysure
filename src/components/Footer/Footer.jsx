@@ -57,11 +57,13 @@ const Footer = () => {
             </div>
             <p className='font-poppins text-[0.85rem] font-normal leading-[1.31rem] '>+1(415) 867-6309</p>
           </div> */}
-          <div className="flex items-center gap-[.5rem] mb-[0.5rem]">
+          <div >
+            <a href="mailto:youremail@example.com" className="flex items-center gap-[.5rem] mb-[0.5rem]">
           <div >
                 {footerIcons.email}
             </div>
             <p className='font-poppins text-[0.85rem] font-normal leading-[1.31rem] '>info@paysure.site</p>
+            </a>
           </div>
         </div>
       </div>

@@ -2,6 +2,7 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import AboutBanner from "../AboutPageComponents/AboutBanner";
 import ContactSection from "../Contact/Contact";
+import Link from "next/link";
 const AllComponents = ({ content }) => {
   const { hero, features, services, ctaSection, trustSection } = content
 
@@ -78,10 +79,10 @@ const AllComponents = ({ content }) => {
               <div className={`space-y-8  w-[50%] md:w-full bg-lightGrey rounded-3xl p-8`}>
                 <h2 className="text-2xl text-left font-bold text-[#2D2150] sm:text-3xl">{service.title}</h2>
                 <p className="text-gray-600">{service.description}</p>
-                <button className="inline-flex items-center space-x-2 rounded-lg border-2 border-[#2D2150] px-6 py-2 font-medium text-[#2D2150] hover:bg-[#2D2150] hover:text-white">
+                <Link href={service.link} className="inline-flex items-center space-x-2 rounded-lg border-2 border-[#2D2150] px-6 py-2 font-medium text-[#2D2150] hover:bg-[#2D2150] hover:text-white">
                   <span>{service.buttonText}</span>
                   <ArrowForwardIcon className="h-4 w-4" />
-                </button>
+                </Link>
               </div>
               <div className={`relative p-8 rounded-3xl ${index%2==0?"bg-primary":"bg-secondary"}`}>
                 <img

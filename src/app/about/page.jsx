@@ -20,34 +20,29 @@ const Page = () => {
     backgroundimg:"/aboutheader2.png"
   }
   const aboutBanner={
-    img:"./aboutImg1.png",
+    img:"./joininghand.jpg",
     subH:"Our Mission",
     h_1:"Joining Hands With",
     hspan:"Doctors",
     h_2:"",
     p:"Doctors play a critical role in patient care, but medical billing often presents a significant challenge. The complexities of billing and coding, combined with the risk of non-compliance, errors, fines, and audits, can divert their attention from what matters most—providing excellent care. At PaySure, we provide innovative and trustworthy medical billing solutions that handle these complexities for you. Our team of experts manages all aspects of billing and coding, ensuring accuracy and compliance. This allows healthcare providers to focus on their practice, while we optimize their billing processes to maximize revenue. Over 1,000 providers have benefited from our services, improving cash flow and streamlining their operations, all while avoiding the pitfalls of billing errors and costly audits.",
   }
-
   const why = {
-    heading: "WHY CHOOSE US ?",
-    subheading: "PaySure Medical Billing Consulting – Ensuring Timely Payments for Doctors",
+    heading: "Why Choose Us?",
+    subheading: "",
     description: [
-      "At PaySure, our expert medical billing consultants specialize in optimizing revenue for healthcare providers. We streamline claim filing, coding accuracy, and A/R follow-ups to ensure you receive every dollar earned—on time.",
-      "We assist practices large and small in overcoming lost, delayed, or underpaid claims. Engage our 24/7 medical billing and coding consultancy for the medical billing help your practice needs."
+      "Headquartered in Maryland, PaySure is the nation’s most highly acclaimed medical billing company, recognized for nearly a decade of excellence in revenue cycle management. With a steadfast commitment to optimizing financial performance for healthcare providers, we deliver industry-leading solutions that drive efficiency, accuracy, and profitability.",
     ],
     benefits: [
-      "Maximize reimbursements & improve cash flow",
-      "Expedite claims processing & reduce payment delays",
-      "Identify & resolve billing issues efficiently",
-      "Automate workflows to minimize administrative burden",
-      "Ensure compliance with regulatory requirements",
-      "Eliminate revenue leakage & costly billing errors",
-      "Reduce operational costs—no need for in-house billing staff or expensive software"
+      "Specialty-specific medical billing solutions",
+      "98% pass rate with denied claims",
+      "Software to support provider growth",
+      "Revenue cycle optimization",
     ],
-    footer: "Partner with us for 24/7 support and seamless medical billing solutions.",
-    image: "/whychoose.png"
+    footer: "",
+    image: "/whycredential.jpg"
   };
-  
+ 
   return (
     <div>
       <div className="flex flex-col items-center" >

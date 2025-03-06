@@ -4,7 +4,7 @@ const RevenuCycle = () => {
     return (
         <div className={`flex flex-row-reverse lg:flex-col-reverse gap-[3rem] px-[4rem] pt-4 pb-1 bg-lightGrey mt-8 sm:px-[.5rem]`}>
             <div className='md:w-full'>
-                <img src='https://bellmedex.com/wp-content/uploads/2024/02/rcm-p1-1.webp' alt="" className='cover mt-[-50px] lg:mt-[0px]' />
+                <img src='/rcm3.jpg' alt="" className='cover mt-[-50px] lg:mt-[0px]' />
             </div>
         <div className='flex flex-col space-y-6'> 
           <div className='flex flex-col space-y-5 w-full'>
