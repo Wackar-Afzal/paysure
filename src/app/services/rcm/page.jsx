@@ -79,7 +79,7 @@ const page = () => {
        ]
      }
      const why = {
-      heading: "RCM",
+      heading: "Why Choose Us?",
       subheading: "PaySure Medical Billing Consulting – Ensuring Timely Payments for Doctors",
       description: [
         "At PaySure, our expert medical billing consultants specialize in optimizing revenue for healthcare providers. We streamline claim filing, coding accuracy, and A/R follow-ups to ensure you receive every dollar earned—on time.",
