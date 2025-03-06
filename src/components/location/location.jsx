@@ -56,7 +56,7 @@ function Location() {
           <div className="">
             <h2 className=" font-bold text-[22px] p-0">Affordable Pricing</h2>
             <p className="text-gray-600">
-            Reduce in-house billing costs with our 2.49% collection rate, pay-for-paid model, free EMR software, scalable solutions, and complimentary denied claims appeals. Outsource to us for streamlined billing and exclusive perks, including:
+            Reduce in-house billing costs with our 2.9% collection rate, pay-for-paid model, free EMR software, scalable solutions, and complimentary denied claims appeals. Outsource to us for streamlined billing and exclusive perks, including:
             </p>
           </div>
 
@@ -102,17 +102,17 @@ function Location() {
             <div className=" text-[14px]">
               <div className="flex justify-between p-4">
                 <span>Billing Service Rates</span>
-                <span className="text-right">as low as 2.49% of the collections</span>
+                <span className="text-right">as low as 2.9% of the collections</span>
               </div>
               <div className="flex justify-between p-4 font-medium">
                 <span>Total</span>
-                <span className="text-right">$2,490</span>
+                <span className="text-right">$2,900</span>
               </div>
             </div>
 
             <div className="bg-secondary text-white p-2">
               <div className="text-center text-[14px]">ANNUAL SAVINGS WITH PaySure</div>
-              <div className="text-center text-[14px] font-bold">$47,510</div>
+              <div className="text-center text-[14px] font-bold">$47,100</div>
             </div>
           </div>
         </div>

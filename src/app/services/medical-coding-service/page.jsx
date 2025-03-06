@@ -23,7 +23,7 @@ const page = () => {
         h_1:"Medical Coding and Auditing",
         hspan:"Doctors",
         h_2:"",
-        p:"With quality medical coding and auditing, our AAPC and AHIMA certified coding specialists perform medical coding audits to mitigate inaccuracies and denials. HMS coding experts conduct independent coding reviews for practices to reduce the level of rebuttals they receive from payers.Based on the granular chart review, we empower healthcare providers with the knowledge and tools to optimize the medical coding process while educating them about services they can bill to insurance. With medical coding services, we PLUG revenue leaks that most practices are unaware of, instantly boosting their monthly reimbursement.Our focus is on quality and accuracy to help ensure that our clients receive the reimbursement they are entitled to. We also offer educational services to healthcare providers to learn about the different services that they can bill to insurance companies. Our goal is to help practices optimize their medical coding process and improve their bottom line.",
+        p:"With quality medical coding and auditing, our AAPC and AHIMA certified coding specialists perform medical coding audits to mitigate inaccuracies and denials. PaySure coding experts conduct independent coding reviews for practices to reduce the level of rebuttals they receive from payers.Based on the granular chart review, we empower healthcare providers with the knowledge and tools to optimize the medical coding process while educating them about services they can bill to insurance. With medical coding services, we PLUG revenue leaks that most practices are unaware of, instantly boosting their monthly reimbursement.Our focus is on quality and accuracy to help ensure that our clients receive the reimbursement they are entitled to. We also offer educational services to healthcare providers to learn about the different services that they can bill to insurance companies. Our goal is to help practices optimize their medical coding process and improve their bottom line.",
       }
       const content = {
          card_per_row:3,
@@ -60,7 +60,7 @@ const page = () => {
             "icon": "healthcare",
             "link": "",
             "title": "Provider Education Webinars",
-            "description": "HMS offers meetings and educational webinars to healthcare providers to identify the revenue-losing area, providing the latest coding updates and compliance with industry standards."
+            "description": "PaySure offers meetings and educational webinars to healthcare providers to identify the revenue-losing area, providing the latest coding updates and compliance with industry standards."
           },
           {
             "icon": "healthcare",
