@@ -1,43 +1,31 @@
-import { listtick } from "@/assets/icons"
 import CheckIcon from "@mui/icons-material/Check";
 
-const Why = () => {
+const Why = ({content}) => {
   return (
     <div className=" p-[4rem] sm:p-[1rem] flex gap-6 lg:flex-col ">
-
-        <div className=" text-secondary  text-left w-[55%] lg:w-full">
-            <h4 className=' mb-4 bg-primary text-white px-4 py-2 text-[18px] !w-[max-content] !border-none !rounded-none'>WHY CHOOSE US ?</h4>
-            <h2 className="text-left mb-4 text-black">PaySure Medical Billing – Ensuring Timely & Accurate Payments.</h2>
-            <p className="mb-2">At PaySure, our expert medical billing consultants optimize revenue for healthcare providers by streamlining claim filing, enhancing coding accuracy, and managing A/R follow-ups—ensuring timely and complete reimbursements.</p>
-            <p className="mb-2">We assist healthcare practices of all sizes in resolving lost, delayed, or underpaid claims. Our 24/7 medical billing and coding consultancy provides the expertise and support needed to maximize revenue and ensure timely reimbursements.</p>
-            <div className="flex items-center gap-2 mb-2"> <div className="rounded-full bg-primary px-[0.15rem] py-[0.08rem]">
-                  <CheckIcon className="h-4 w-4 text-white" />
-                </div><p>Maximize reimbursements, optimize cash flow.</p></div>
-            <div className="flex items-center gap-2 mb-2"><div className="rounded-full bg-primary px-[0.15rem] py-[0.08rem]">
-                  <CheckIcon className="h-4 w-4 text-white" />
-                </div><p>Accelerate claims processing and minimize payment delays.</p></div>
-            <div className="flex items-center gap-2 mb-2"><div className="rounded-full bg-primary px-[0.15rem] py-[0.08rem]">
-                  <CheckIcon className="h-4 w-4 text-white" />
-                </div><p>Identify & resolve billing issues efficiently</p></div>
-            <div className="flex  items-center gap-2 mb-2"><div className="rounded-full bg-primary px-[0.15rem] py-[0.08rem]">
-                  <CheckIcon className="h-4 w-4 text-white" />
-                </div><p>Automate workflows to minimize administrative burden</p></div>
-            <div className="flex items-center gap-2 mb-2"><div className="rounded-full bg-primary px-[0.15rem] py-[0.08rem]">
-                  <CheckIcon className="h-4 w-4 text-white" />
-                </div><p>Ensure compliance with regulatory requirements</p></div>
-            <div className="flex items-center gap-2 mb-2"><div className="rounded-full bg-primary px-[0.15rem] py-[0.08rem]">
-                  <CheckIcon className="h-4 w-4 text-white" />
-                </div><p>Eliminate revenue leakage & costly billing errors</p></div>
-            <div className="flex items-center gap-2 mb-2 mb-2"><div className="rounded-full bg-primary px-[0.15rem] py-[0.08rem]">
-                  <CheckIcon className="h-4 w-4 text-white" />
-                </div><p>Reduce operational expenses by eliminating the need for in-house billing staff and costly software.</p></div>
-            <p className="font-bold">Partner with us for 24/7 support and seamless medical billing solutions.</p>
-        </div>
-        <div className="w-[45%] h-[90vh] flex justify-center overflow-hidden bg-white rounded-xl lg:w-full lg:h-[50vh]">
-            <img className="object-cover  " src='/whychoose.png'/>
-        </div>
+      <div className=" text-secondary text-left w-[55%] lg:w-full">
+        <h4 className='mb-4 bg-primary text-white px-4 py-2 text-[18px] !w-[max-content] !border-none !rounded-none'>
+          {content.heading}
+        </h4>
+        <h2 className="text-left mb-4 text-black">{content.subheading}</h2>
+        {content.description.map((para, index) => (
+          <p key={index} className="mb-2">{para}</p>
+        ))}
+        {content.benefits.map((benefit, index) => (
+          <div key={index} className="flex items-center gap-2 mb-2">
+            <div className="rounded-full bg-primary px-[0.15rem] py-[0.08rem]">
+              <CheckIcon className="h-4 w-4 text-white" />
+            </div>
+            <p>{benefit}</p>
+          </div>
+        ))}
+        <p className="font-bold">{content.footer}</p>
+      </div>
+      <div className="w-[45%] h-[90vh] flex justify-center overflow-hidden bg-white rounded-xl lg:w-full lg:h-[50vh]">
+        <img className="object-cover" src={content.image} alt="Why Choose Us" />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Why
+export default Why;

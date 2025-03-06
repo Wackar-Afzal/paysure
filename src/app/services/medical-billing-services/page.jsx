@@ -40,6 +40,25 @@ const content = {
     }
   ]
 }
+const why = {
+  heading: "WHY CHOOSE US ?",
+  subheading: "PaySure Medical Billing Consulting – Ensuring Timely Payments for Doctors",
+  description: [
+    "At PaySure, our expert medical billing consultants specialize in optimizing revenue for healthcare providers. We streamline claim filing, coding accuracy, and A/R follow-ups to ensure you receive every dollar earned—on time.",
+    "We assist practices large and small in overcoming lost, delayed, or underpaid claims. Engage our 24/7 medical billing and coding consultancy for the medical billing help your practice needs."
+  ],
+  benefits: [
+    "Maximize reimbursements & improve cash flow",
+    "Expedite claims processing & reduce payment delays",
+    "Identify & resolve billing issues efficiently",
+    "Automate workflows to minimize administrative burden",
+    "Ensure compliance with regulatory requirements",
+    "Eliminate revenue leakage & costly billing errors",
+    "Reduce operational costs—no need for in-house billing staff or expensive software"
+  ],
+  footer: "Partner with us for 24/7 support and seamless medical billing solutions.",
+  image: "/whychoose.png"
+};
 
 
 const Page = () => {
@@ -47,7 +66,7 @@ const Page = () => {
     <div>
       <div className="flex flex-col mt-[2.3rem] items-center">
         <About content={content} showbuttons={false}/>
-        <Why />
+        <Why content={why}/>
         <Work />
         <Offers/>
         <FooterMessage/>

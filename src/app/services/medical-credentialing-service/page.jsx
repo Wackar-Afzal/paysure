@@ -113,14 +113,43 @@ const page = () => {
        
        ]
      }
+
+     const why = {
+      heading: "WHY CHOOSE US ?",
+      subheading: "PaySure, a leading credentialing specialist, offers expert provider enrollment and MD credentialing services",
+      description: ["Our dedicated team ensures seamless enrollment, handling physician credentialing and complex qualification verifications with industry expertise." ],
+      benefits: [
+        "Time & Cost Efficiency – Streamlined credentialing process to save time and reduce costs.",
+        "End-to-End Management – We handle all paperwork, minimizing administrative burdens.",
+        "Real-Time Updates – Stay informed on application status with proactive communication.",
+        "Seamless Contracting – Ensuring compliance for smooth provider enrollment.",
+        "Dedicated Support – Prompt customer service for all concerns and inquiries.",
+        "Focus on Patient Care – We manage credentialing so you can prioritize your patients.",
+      ],
+      footer: "contact us today to learn more or request a free quote!",
+      image: "/whychoose.png"
+    };
+    const bookDemoContent = {
+      heading: "We empower providers to secure valuable in-network contracts.",
+      description:
+        "PaySure’s provider enrollment services secure in-network contracts, even with exclusive payor panels.",
+      buttonText: "Book Demo",
+      buttonLink: "/#contact",
+      benefits: [
+        "Championing Healthcare Providers",
+        "Collaborating with Insurance Payers.",
+        "Gain Access to Exclusive Networks",
+        "Maximize Hospital Privileges",
+      ],
+    };
   return (
     <div>
         <Banner data={data}/>
         <AboutBanner aboutBanner={aboutBanner}/>
         <About content={content} showbuttons={false}/>
-        <Why/>
+        <Why content={why}/>
         <About content={content2} showbuttons={false}/>
-        <Bookdemo/>    
+        <Bookdemo bookDemoContent={bookDemoContent}/>    
 
     </div>
   );

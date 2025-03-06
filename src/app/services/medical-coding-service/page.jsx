@@ -17,19 +17,18 @@ const page = () => {
         backgroundimg:"/banner.png"
       }
       const aboutBanner={
-        button:"Contact Us",
+        button:"call us",
         img:"/aboutImg1.png",
         // subH:"We Offer",
         h_1:"Medical Coding and Auditing",
         hspan:"Doctors",
         h_2:"",
-        p:"Our AAPC- and AHIMA-certified specialists deliver expert medical coding and auditing services to enhance accuracy and minimize denials. PaySure conducts independent coding reviews to reduce payer rebuttals and ensure compliance. Through detailed chart analysis, we equip healthcare providers with the insights and tools needed to optimize coding processes and maximize billable services. By identifying and addressing revenue leaks, we help practices enhance their financial performance and increase monthly reimbursements. Committed to precision and efficiency, we ensure clients receive the full reimbursement they are entitled to. Additionally, our educational programs empower providers with a comprehensive understanding of billing opportunities, driving long-term revenue optimization.",
-        
+        p:"With quality medical coding and auditing, our AAPC and AHIMA certified coding specialists perform medical coding audits to mitigate inaccuracies and denials. HMS coding experts conduct independent coding reviews for practices to reduce the level of rebuttals they receive from payers.Based on the granular chart review, we empower healthcare providers with the knowledge and tools to optimize the medical coding process while educating them about services they can bill to insurance. With medical coding services, we PLUG revenue leaks that most practices are unaware of, instantly boosting their monthly reimbursement.Our focus is on quality and accuracy to help ensure that our clients receive the reimbursement they are entitled to. We also offer educational services to healthcare providers to learn about the different services that they can bill to insurance companies. Our goal is to help practices optimize their medical coding process and improve their bottom line.",
       }
       const content = {
          card_per_row:3,
         h1:"Our Medical Coding Services",
-        p1:"Our customized medical coding solutions ensure precision, compliance, and efficiency, facilitating error-free claim submissions, faster reimbursements, and an optimized workflow—enabling you to prioritize exceptional patient care.",
+        p1:"Our custom medical coding services guarantee prompt reimbursements, error-free claim submissions, and a streamlined workflow so you can focus on delivering excellent patient healthcare.",
         p2:"",
         "bannerIcons": {
           "billblack": workicons.medBilling,
@@ -43,48 +42,77 @@ const page = () => {
             "icon": "billblack",
             "link": "",
             "title": "Telehealth Coding",
-            "description": "Our medical coding and auditing services ensure accurate and compliant billing for all telehealth and telemedicine procedures."
+            "description": "Our medical coding and auditing cover all the aspects of telehealth and telemedicine coding, and we code and bill every telehealth service you provide."
           },
           {
             "icon": "revenue",
             "link": "",
             "title": "External Coding Audits",
-            "description": "Our medical coding auditors identify ICD-10 and CPT discrepancies, providing expert recommendations for accurate and compliant coding."
+            "description": "Our medical coding auditor helps medical providers identify the ICD 10 and CPT coding discrepancies and suggest modifications after reviewing coding charts."
           },
           {
             "icon": "clock",
             "link": "",
             "title": "Independent Coding Reviews",
-            "description": "We ensure compliance and maximize reimbursements while addressing insurance company rebuttals effectively."
+            "description": "By maintaining compliance and ensuring your practice gets the maximum reimbursement for services rendered, We tackle the rebuttals you receive from the insurance companies."
           },
           {
             "icon": "healthcare",
             "link": "",
             "title": "Provider Education Webinars",
-            "description": "PaySure hosts meetings and webinars to help healthcare providers identify revenue gaps, stay updated on coding changes, and ensure compliance."
+            "description": "HMS offers meetings and educational webinars to healthcare providers to identify the revenue-losing area, providing the latest coding updates and compliance with industry standards."
           },
           {
             "icon": "healthcare",
             "link": "",
             "title": "Evaluation and Management E/M",
-            "description": "Comprehensive E/M coding for all specialties, ensuring error-free code assignment and accurate medical decision-making (MDM)."
+            "description": "Comprehensive E/M coding services for all specialties, focusing on assigning error-free codes to ensure accurate medical decision making (MDM) for your practice."
           },
           {
             "icon": "healthcare",
             "link": "",
             "title": "Customized Template",
-            "description": "We provide customized templates to help healthcare providers efficiently document patient progress notes with accuracy and timeliness."
+            "description": "We offer customized templates to healthcare providers to create patients' progress notes on performed services effectively and timely manner."
           }
         ]
       }
+      const why = {
+        heading: "WHY PAYSURE ?",
+        subheading: "PaySure delivers end-to-end medical coding services to maximize revenue and compliance.",
+        description: [
+          " We meticulously review progress notes, assign accurate MDM levels to prevent up-coding or down-coding, and apply the latest coding guidelines, modifiers, and CCI edits to ensure accuracy across all PoS.",
+        ],
+        benefits: [
+          "Faster turnaround & higher reimbursements",
+          "Expert coders ensuring accuracy & compliance",
+          "Error-free coding aligned with regulations",
+          "Audits & feedback to prevent denials",
+          "ICD & CPT expertise for seamless billing",
+        ],
+        footer: "Partner with us for 24/7 support and seamless medical billing solutions.",
+        image: "/whychoose.png"
+      };
+      const bookDemoContent = {
+        heading: "Lets transform your medical records into accurate, compliant revenue.",
+        description:
+          "Our experts analyze patient data to optimize coding accuracy and maximize reimbursements.",
+        buttonText: "Book Demo",
+        buttonLink: "/#contact",
+        benefits: [
+          "Skilled & Accurate Coders",
+          "HIPAA-compliant",
+          "Enhanced Cash Flow",
+          "Minimized Denials",
+        ],
+      };
       
   return (
     <div>
         <Banner data={data}/>
         <AboutBanner aboutBanner={aboutBanner}/>
-        <Why/>
+        <Why content={why}/>
         <About content={content} showbuttons={false}/>
-        <Bookdemo/>
+        <Bookdemo bookDemoContent={bookDemoContent}/>
         
 
     </div>

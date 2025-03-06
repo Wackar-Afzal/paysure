@@ -74,6 +74,20 @@ const Home = () => {
     // backgroundimg:"../assets/banner.png"
     backgroundimg:"/banner.png"
   }
+  const bookDemoContent = {
+    heading: "Let's experience our medical billing services for as low as 2.9%",
+    description:
+      "Over 1500 medical practices trust PaySure medical billing services company. So let's have a chat.",
+    buttonText: "Book Demo",
+    buttonLink: "/#contact",
+    benefits: [
+      "Instant verification of patient insurance coverage.",
+      "HIPAA-compliant medical billing services for data safety.",
+      "24/7 medical billing for accurate and timely claims.",
+      "98% claim reimbursement for maximized cash flow.",
+    ],
+  };
+  
   return (
     <div>
         <Banner data={data}/>
@@ -84,7 +98,7 @@ const Home = () => {
         {/* <Work/> */}
          {/*<Offers/>*/}
         <RCM/>
-        <Bookdemo/>
+        <Bookdemo bookDemoContent={bookDemoContent}/>
         <Speciality noficons={3}/>
         <Location/>
         <Reviews/>
