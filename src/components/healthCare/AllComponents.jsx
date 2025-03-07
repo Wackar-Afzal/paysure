@@ -36,7 +36,7 @@ const AllComponents = ({ content }) => {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            to: "fasilaliprince123@gmail.com", // Change this to the recipient email
+            to: "surepay41@gmail.com", // Change this to the recipient email
             subject: `New Lead from ${values.name}`,
             text: `Name: ${values.name}\nEmail: ${values.email}\nPhone: ${values.phone}\nWebsite: ${values.website}`,
           }),
