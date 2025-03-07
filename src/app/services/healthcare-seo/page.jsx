@@ -8,10 +8,10 @@ const content = {
       "We help you reach higher search ranks, drive great leads and win at social media marketing to reach the right patients and grow your practice.",
     buttonText: "Get Free Analysis",
     formFields: [
-      { type: "text", placeholder: "Your Name" },
-      { type: "email", placeholder: "Work Email" },
-      { type: "tel", placeholder: "Phone Number" },
-      { type: "text", placeholder: "Website URL" },
+      { type: "text", placeholder: "Your Name",name:"name" },
+      { type: "email", placeholder: "Work Email",name:"email"  },
+      { type: "tel", placeholder: "Phone Number",name:"phone"  },
+      { type: "text", placeholder: "Website URL",name:"website"  },
     ],
     img_left:{src:"https://bellmedex.com/wp-content/uploads/2023/11/HS-S1-P2.webp", alt: "Partner 1" },
     img_right:{src: "https://bellmedex.com/wp-content/uploads/2023/11/HS-S1-P1.webp", alt: "Partner 2"}
@@ -61,10 +61,10 @@ const content = {
     description: "Unbeatable SEO packages for healthcare providers to boost your online presence.",
     buttonText: "Submit Now",
     formFields: [
-      { type: "text", placeholder: "Your Name" },
-      { type: "email", placeholder: "Work Email" },
-      { type: "tel", placeholder: "Phone Number" },
-      { type: "text", placeholder: "Website URL" },
+      { type: "text", placeholder: "Your Name",name:"name" },
+      { type: "email", placeholder: "Work Email",name:"email"  },
+      { type: "tel", placeholder: "Phone Number",name:"phone"  },
+      { type: "text", placeholder: "Website URL",name:"website"  },
     ],
   },
   trustSection: {

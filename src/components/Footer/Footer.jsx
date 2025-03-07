@@ -1,8 +1,53 @@
-import React from 'react';
+'use client'
+import { useFormik } from "formik";
+import { useState } from "react";
+import * as Yup from "yup";
+import { toast } from 'react-toastify';
 import { footerIcons } from "../../assets/icons"
 import Link from 'next/link';
 // font-poppins text-base font-normal leading-[1.3125rem] text-left
 const Footer = () => {
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const formik = useFormik({
+    initialValues: {
+      email: "",
+    },
+    validationSchema: Yup.object({
+      email: Yup.string().email("Invalid email").required("Email is required"),
+    }),
+    onSubmit: async (values, { resetForm }) => {
+      setIsSubmitting(true);
+
+      try {
+        const response = await fetch("/api/email", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            to:"fasilaliprince123@gmail.com", // User's email
+            subject: "New Newsletter Subscriber",
+            text: `New Subscriber: ${values.email}`, 
+          }),
+        });
+
+        const result = await response.json();
+        if (response.ok) {
+          toast.success("You've successfully subscribed to our newsletter!");
+          resetForm();
+        } else {
+          toast.error(`Error: ${result.message}`);
+        }
+      } catch (error) {
+        toast.error("Subscription failed. Please try again.");
+      }
+
+      setIsSubmitting(false);
+    },
+  });
+
+
+
   return (
     <div data-aos="fade-up" className="flex bg-white text-secondary py-[2.8rem] px-[5.6rem] gap-[3rem] md:p-MXpad lg:flex-wrap md:gap-[2rem]">
 
@@ -80,12 +125,31 @@ const Footer = () => {
           </div>
         </div> */}
         <h3 className="text-secondary font-poppins text-[1rem] font-semibold leading-[1.75rem] text-left">Newsletter Signup</h3>
-        <div className="flex justify-center items-center">
-          <input type="email" placeholder="Enter email Address" className=" font-poppins !text-[0.79rem] !font-normal !leading-[1.31rem] w-full py-[0.5rem] !border-primary !border-r-0 rounded-[5px] !rounded-r-none bg bg-transparent !placeholder-secondary lg:h-[2.5rem]" />
-          <button type="submit" className=" h-full bg-transparent text-secondary py-[0.5rem] px-[1.1rem] rounded-[5px] cursor-pointer  !border-primary border-l-0 rounded-[5px]  border-[1px] rounded-l-none  lg:h-[2.5rem]">
-            {footerIcons.plane}
-          </button>
-        </div>
+
+        <form className="flex justify-center items-center  sm:w-full md:w-[40vw]" onSubmit={formik.handleSubmit}>
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            className= "  font-poppins !text-[1rem] !font-normal !leading-[1.31rem] w-full py-[0.5rem] !border-primary !border-r-0 rounded-[5px] !rounded-r-none bg bg-transparent !placeholder-secondary lg:h-[2.5rem]" 
+            {...formik.getFieldProps("email")}
+            disabled={isSubmitting}
+          />
+          <button
+          type="submit"
+          className="text-[1rem] h-full bg-transparent text-secondary py-[0.5rem] px-[1.1rem]  cursor-pointer  !border-primary border-l-0 rounded-[5px]  border-[1px] rounded-l-none  lg:h-[2.5rem]"
+          disabled={isSubmitting}
+        >
+          {isSubmitting ? "Subscribing..." : footerIcons.plane}
+        </button>
+          
+        {/* <div className=" text-red">
+            {formik.touched.email && formik.errors.email ? formik.errors.email : ""}
+          </div> */}
+        </form>
+        <div className=" text-red">
+            {formik.touched.email && formik.errors.email ? formik.errors.email : ""}
+          </div>
       </div>
     </div>
   );
