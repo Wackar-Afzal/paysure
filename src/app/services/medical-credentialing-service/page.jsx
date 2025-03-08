@@ -14,7 +14,7 @@ const page = () => {
         p:"PaySure enables you to get credentialed with commercial and non-commercial insurances.",
         button:true,
         // backgroundimg:"../assets/banner.png"
-        backgroundimg:"/Capture1.png"
+        backgroundimg:"/Capture1cred.png"
       }
       const aboutBanner={
         button:"Contact Us",
