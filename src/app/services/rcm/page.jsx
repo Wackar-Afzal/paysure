@@ -16,7 +16,7 @@ const page = () => {
         button:true,
         link:"/#contact",
         // backgroundimg:"../assets/banner.png"
-        backgroundimg:"/Capture2.png"
+        backgroundimg:"/Capture2rcm.png"
       }
       const aboutBanner={
         // button:"call us",

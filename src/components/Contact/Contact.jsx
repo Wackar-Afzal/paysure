@@ -29,7 +29,7 @@ const ContactSection = () => {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            to: "fasilaliprince123@gmail.com", // Change this to the recipient email
+            to: "surepay41@gmail.com", // Change this to the recipient email
             subject: `Query from ${values.name}`,
             text: `Name: ${values.name}\nEmail: ${values.email}\nMessage: ${values.message}`,
           }),

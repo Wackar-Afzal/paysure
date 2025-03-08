@@ -25,7 +25,7 @@ const Footer = () => {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            to:"fasilaliprince123@gmail.com", // User's email
+            to:"surepay41@gmail.com", // User's email
             subject: "New Newsletter Subscriber",
             text: `New Subscriber: ${values.email}`, 
           }),
