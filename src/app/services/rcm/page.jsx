@@ -14,6 +14,7 @@ const page = () => {
         // h1_2:"with Accuracy & Trust",
         p:"Medical Revenue Service by PaySure streamlines end-to-end RCM operations to maximize provider payments and financial outcomes.",
         button:true,
+        link:"/#contact",
         // backgroundimg:"../assets/banner.png"
         backgroundimg:"/Capture2.png"
       }

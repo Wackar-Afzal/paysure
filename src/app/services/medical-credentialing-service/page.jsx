@@ -13,6 +13,7 @@ const page = () => {
         // h1_2:"with Accuracy & Trust",
         p:"PaySure enables you to get credentialed with commercial and non-commercial insurances.",
         button:true,
+        link:"/#contact",
         // backgroundimg:"../assets/banner.png"
         backgroundimg:"/Capture1.png"
       }

@@ -13,6 +13,7 @@ const page = () => {
         // h1_2:"with Accuracy & Trust",
         p:"Our medical coding services cover all claims' coding to remove inaccuracies and boost reimbursements.",
         button:true,
+        link:"/#contact",
         // backgroundimg:"../assets/banner.png"
         backgroundimg:"/Capture.png"
       }
