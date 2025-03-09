@@ -12,7 +12,7 @@ const RevenuCycle = () => {
                     width={0}
                     height={0}
                     sizes="100%"
-                    loading="lazy"
+                    //loading="lazy"
                     style={{ width: '100%', height: 'auto' }}
                     className='cover mt-[-50px] lg:mt-[0px]' 
                     placeholder="blur" 

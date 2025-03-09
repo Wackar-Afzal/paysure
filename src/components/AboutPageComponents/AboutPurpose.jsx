@@ -14,7 +14,7 @@ const AboutPurpose = () => {
                             width={0}
                             height={0}
                             sizes="100%"
-                            loading="lazy"
+                            //loading="lazy"
                             style={{ width: '100%', height: 'auto' }}
                             className='w-[6rem]' 
                             // placeholder="blur" 

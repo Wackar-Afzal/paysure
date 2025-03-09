@@ -75,7 +75,7 @@ const WhatClientSay = () => {
                   width={0}
                   height={0}
                   sizes="100%"
-                  loading="lazy"
+                  //loading="lazy"
                   style={{ width: '100%', height: 'auto' }}
                   className='w-full rounded-full'
                   placeholder="blur" 
@@ -95,7 +95,7 @@ const WhatClientSay = () => {
                 width={0}
                 height={0}
                 sizes="100%"
-                loading="lazy"
+                //loading="lazy"
                 style={{ width: '100%', height: 'auto' }}
                 // placeholder="blur" 
                 // blurDataURL={`/low/aboutImg1.png`}

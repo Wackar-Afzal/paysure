@@ -13,7 +13,7 @@ const AboutBanner = ({aboutBanner,imgRight=false}) => {
                         width={0}
                         height={0}
                         sizes="100%"
-                        loading="lazy"
+                        //loading="lazy"
                         style={{ width: '100%', height: 'auto' }}
                         placeholder="blur" 
                         blurDataURL={`/low/${aboutBanner.img}`}

@@ -30,7 +30,7 @@ const Why = ({content}) => {
             width={0}
             height={0}
             sizes="100%"
-            loading="lazy"
+            //loading="lazy"
             style={{ width: '100%', height: 'auto' }}
             className="object-cover"
             placeholder="blur" 

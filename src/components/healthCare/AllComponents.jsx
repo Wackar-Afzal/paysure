@@ -76,7 +76,7 @@ const AllComponents = ({ content }) => {
                   width={0}
                   height={0}
                   sizes="100%"
-                  loading="lazy"
+                  //loading="lazy"
                   style={{ width: '100%', height: 'auto' }}
                    className="w-full object-contain"
                   placeholder="blur" 
@@ -128,7 +128,7 @@ const AllComponents = ({ content }) => {
                   width={0}
                   height={0}
                   sizes="100%"
-                  loading="lazy"
+                  //loading="lazy"
                   style={{ width: '100%', height: 'auto' }}
                     className=" object-contain w-full"
                   placeholder="blur" 
@@ -202,7 +202,7 @@ const AllComponents = ({ content }) => {
                   width={0}
                   height={0}
                   sizes="100%"
-                  loading="lazy"
+                  //loading="lazy"
                   style={{ width: '100%', height: 'auto' }}
                    className="w-full rounded-lg object-cover "
                   placeholder="blur" 

@@ -26,7 +26,7 @@ const About = ({ content,showbuttons}) => {
                         width={0}
                         height={0}
                         sizes="100%"
-                        loading="lazy"
+                        //loading="lazy"
                         style={{ width: '100%', height: 'auto' }}
                         placeholder="blur" 
                         className="w-full h-full object-cover"

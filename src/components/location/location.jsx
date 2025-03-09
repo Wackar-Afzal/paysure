@@ -56,7 +56,7 @@ function Location() {
                 width={0}
                 height={0}
                 sizes="100%"
-                loading="lazy"
+                //loading="lazy"
                 style={{ width: '100%', height: 'auto' }}
                 className="w-full lg:w-[60vw]"
                 placeholder="blur" 
