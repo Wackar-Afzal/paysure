@@ -109,7 +109,7 @@ const Reviews = () => {
                         style={{ width: '100%', height: 'auto' }}
                         className='w-full'
                         placeholder="blur" 
-                        blurDataURL={`/low/${item.img}`}
+                        blurDataURL={`/low${item.img}`}
                       />
                   </div>
                   <div className='flex flex-col'>

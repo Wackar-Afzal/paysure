@@ -80,7 +80,7 @@ const AllComponents = ({ content }) => {
                   style={{ width: '100%', height: 'auto' }}
                    className="w-full object-contain"
                   placeholder="blur" 
-                  blurDataURL={`/low/${hero.img_right.src || "/placeholder.svg"}`}
+                  blurDataURL={`/low${hero.img_right.src || "/placeholder.svg"}`}
                 />
             </div>
 
@@ -132,7 +132,7 @@ const AllComponents = ({ content }) => {
                   style={{ width: '100%', height: 'auto' }}
                     className=" object-contain w-full"
                   placeholder="blur" 
-                  blurDataURL={`/low/${hero.img_left.src || "/placeholder.svg"}`}
+                  blurDataURL={`/low${hero.img_left.src || "/placeholder.svg"}`}
                 />
             </div>
           </div>
@@ -206,7 +206,7 @@ const AllComponents = ({ content }) => {
                   style={{ width: '100%', height: 'auto' }}
                    className="w-full rounded-lg object-cover "
                   placeholder="blur" 
-                  blurDataURL={`/low/${service.image || "/placeholder.svg"}`}
+                  blurDataURL={`/low${service.image || "/placeholder.svg"}`}
                 />
               </div>
             </div>

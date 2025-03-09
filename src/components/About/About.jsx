@@ -30,7 +30,7 @@ const About = ({ content,showbuttons}) => {
                         style={{ width: '100%', height: 'auto' }}
                         placeholder="blur" 
                         className="w-full h-full object-cover"
-                        blurDataURL={`/low/${section.img}`}
+                        blurDataURL={`/low${section.img}`}
                       />:<>
             {content.bannerIcons[section.icon]}
             <h4 className="text-center text-black font-bold">
