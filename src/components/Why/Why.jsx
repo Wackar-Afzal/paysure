@@ -33,8 +33,8 @@ const Why = ({content}) => {
             //loading="lazy"
             style={{ width: '100%', height: 'auto' }}
             className="object-cover"
-            placeholder="blur" 
-            blurDataURL={`https://www.paysure.site${content.image.replace("/", "lowres_")}`}
+           // placeholder="blur" 
+            // blurDataURL={`https://www.paysure.site${content.image.replace("/", "lowres_")}`}
           />
       </div>
     </div>

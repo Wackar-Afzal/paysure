@@ -15,8 +15,8 @@ const Work = () => {
             sizes="100%"
             //loading="lazy"
             style={{ width: '100%', height: 'auto' }}
-            placeholder="blur" 
-            blurDataURL={`https://www.paysure.site/lowres_work.png`}
+           // placeholder="blur" 
+            // blurDataURL={`https://www.paysure.site/lowres_work.png`}
           />
     </div>
     <div className=" flex-col gap-4 p-4 hidden md:flex">

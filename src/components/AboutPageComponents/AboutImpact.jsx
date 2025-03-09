@@ -14,8 +14,8 @@ const AboutImpact = () => {
             sizes="100%"
             //loading="lazy"
             style={{ width: '100%', height: 'auto' }}
-            placeholder="blur" 
-            blurDataURL={`https://www.paysure.site/lowres_aboutImg1.png`}
+           // placeholder="blur" 
+            // blurDataURL={`https://www.paysure.site/lowres_aboutImg1.png`}
           />
       </div>
 

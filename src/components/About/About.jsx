@@ -28,9 +28,9 @@ const About = ({ content,showbuttons}) => {
                         sizes="100%"
                         //loading="lazy"
                         style={{ width: '100%', height: 'auto' }}
-                        placeholder="blur" 
+                       // placeholder="blur" 
                         className="w-full h-full object-cover"
-                        blurDataURL={`https://www.paysure.site${section.img.replace("/", "lowres_")}`}
+                        // blurDataURL={`https://www.paysure.site${section.img.replace("/", "lowres_")}`}
                       />:<>
             {content.bannerIcons[section.icon]}
             <h4 className="text-center text-black font-bold">

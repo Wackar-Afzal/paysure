@@ -17,8 +17,8 @@ const AboutPurpose = () => {
                             //loading="lazy"
                             style={{ width: '100%', height: 'auto' }}
                             className='w-[6rem]' 
-                            // placeholder="blur" 
-                            // blurDataURL={`/low/aboutImg1.png`}
+                            //// placeholder="blur" 
+                            // // blurDataURL={`/low/aboutImg1.png`}
                             />
 
                         <h4 className='text-center text-black'>Kidney</h4>

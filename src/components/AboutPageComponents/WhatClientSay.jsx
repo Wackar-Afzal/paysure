@@ -78,8 +78,8 @@ const WhatClientSay = () => {
                   //loading="lazy"
                   style={{ width: '100%', height: 'auto' }}
                   className='w-full rounded-full'
-                  placeholder="blur" 
-                  blurDataURL={`https://www.paysure.site${item.img.replace("/", "lowres_")}`}
+                 // placeholder="blur" 
+                  // blurDataURL={`https://www.paysure.site${item.img.replace("/", "lowres_")}`}
                 />
               </div>
               <div className='flex flex-col'>
@@ -97,8 +97,8 @@ const WhatClientSay = () => {
                 sizes="100%"
                 //loading="lazy"
                 style={{ width: '100%', height: 'auto' }}
-                // placeholder="blur" 
-                // blurDataURL={`/low/aboutImg1.png`}
+                //// placeholder="blur" 
+                // // blurDataURL={`/low/aboutImg1.png`}
               />
             </div>
           </div>
