@@ -21,7 +21,7 @@ const Homebaner2 = () => {
             style={{ width: '100%', height: 'auto' }}
             className="object-cover  " 
             placeholder="blur" 
-            blurDataURL="/low/medicalclaimsbilling.jpg"
+            blurDataURL="/lowres_medicalclaimsbilling.jpg"
           />
         </div>
         <div className="w-[45%] text-white p-10 text-left rounded-xl p-4 lg:w-full">

@@ -60,7 +60,7 @@ function Location() {
                 style={{ width: '100%', height: 'auto' }}
                 className="w-full lg:w-[60vw]"
                 placeholder="blur" 
-                blurDataURL={`/low/map.png"`}
+                blurDataURL={`/lowres_map.png"`}
               />
           </div>
         </div>

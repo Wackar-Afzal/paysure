@@ -34,7 +34,7 @@ const Why = ({content}) => {
             style={{ width: '100%', height: 'auto' }}
             className="object-cover"
             placeholder="blur" 
-            blurDataURL={`/low${content.image}`}
+            blurDataURL={`${content.image.replace("/", "lowres_")}`}
           />
       </div>
     </div>

@@ -15,7 +15,7 @@ const AboutImpact = () => {
             //loading="lazy"
             style={{ width: '100%', height: 'auto' }}
             placeholder="blur" 
-            blurDataURL={`/low/aboutImg1.png`}
+            blurDataURL={`/lowres_aboutImg1.png`}
           />
       </div>
 

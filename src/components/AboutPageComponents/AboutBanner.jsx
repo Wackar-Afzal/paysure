@@ -16,7 +16,7 @@ const AboutBanner = ({aboutBanner,imgRight=false}) => {
                         //loading="lazy"
                         style={{ width: '100%', height: 'auto' }}
                         placeholder="blur" 
-                        blurDataURL={`/low${aboutBanner.img}`}
+                        blurDataURL={`/${aboutBanner.img.replace("/", "lowres_")}`}
                       />
       </div>
     <div className='flex flex-col space-y-6'>
