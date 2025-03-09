@@ -88,7 +88,7 @@ const WhatClientSay = () => {
               </div>
             </div>
             <div className='absolute bottom-[32px] right-[32px] w-[4.5rem]'>
-              <img className="w-[full]" src={require('../../assets/banner.png')} alt="" />
+              {/* <img className="w-[full]" src={require('../../assets/banner.png')} alt="" /> */}
               <Image
                 src={require('../../assets/banner.png')}
                 alt="Optimized Image"

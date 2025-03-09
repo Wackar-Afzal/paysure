@@ -5,7 +5,7 @@ const RevenuCycle = () => {
     return (
         <div className={`flex flex-row-reverse lg:flex-col-reverse gap-[3rem] px-[4rem] pt-4 pb-1 bg-lightGrey mt-8 sm:px-[.5rem]`}>
             <div className='md:w-full'>
-                <img src='/rcm3.jpg' alt="" className='cover mt-[-50px] lg:mt-[0px]' />
+                {/* <img src='/rcm3.jpg' alt="" className='cover mt-[-50px] lg:mt-[0px]' /> */}
                 <Image
                     src='/rcm3.jpg'
                     alt="Optimized Image"
