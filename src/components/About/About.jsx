@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const About = ({ content,showbuttons}) => {
@@ -19,7 +20,18 @@ const About = ({ content,showbuttons}) => {
             data-aos="fade-up"
             className={`flex  ${section.img?"p-0":"p-6"} flex-col space-y-8  items-center justify-center ${content.card_per_row>3?"w-[15rem]":"w-[25%]"} border border-[2px] rounded-[16px] border-lightGrey hover:cursor-pointer hover:shadow-card-shadowhome transition-shadow duration-300 md:w-full`}
           >
-            {section.img?<img className="w-full h-full object-cover" src={section.img} alt="credential"/>:<>
+            {section.img?       <Image
+                        src={section.img}
+                        alt="Optimized Image"
+                        width={0}
+                        height={0}
+                        sizes="100%"
+                        loading="lazy"
+                        style={{ width: '100%', height: 'auto' }}
+                        placeholder="blur" 
+                        className="w-full h-full object-cover"
+                        blurDataURL={`/low/${section.img}`}
+                      />:<>
             {content.bannerIcons[section.icon]}
             <h4 className="text-center text-black font-bold">
               {section.title}

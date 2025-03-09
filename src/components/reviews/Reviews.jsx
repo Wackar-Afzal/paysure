@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 
 export const aboutPageData = [
@@ -97,7 +98,19 @@ const Reviews = () => {
                 </div>
                 <div className='flex space-x-2'>
                   <div className='w-12 h-12 rounded-full overflow-hidden'>
-                    <img className='w-full' src={item.img} alt={item.name} />
+                    {/* <img className='w-full' src={item.img} alt={item.name} /> */}
+                    <Image
+                        src={item.img}
+                        alt="Optimized Image"
+                        width={0}
+                        height={0}
+                        sizes="100%"
+                        loading="lazy"
+                        style={{ width: '100%', height: 'auto' }}
+                        className='w-full'
+                        placeholder="blur" 
+                        blurDataURL={`/low/${item.img}`}
+                      />
                   </div>
                   <div className='flex flex-col'>
                     <p className="font-semibold">{item.name}</p>
@@ -105,7 +118,19 @@ const Reviews = () => {
                   </div>
                 </div>
                 <div className='absolute bottom-8 right-8 w-16'>
-                  <img src='/about_style.png' alt="" />
+                  {/* <img src='/about_style.png' alt="" /> */}
+                  <Image
+                        src='/about_style.png'
+                        alt="Optimized Image"
+                        width={0}
+                        height={0}
+                        sizes="100%"
+                        loading="lazy"
+                        style={{ width: '100%', height: 'auto' }}
+                        className='w-full'
+                        placeholder="blur" 
+                        blurDataURL={`/low/about_style.png`}
+                      />
                 </div>
               </div>
             </div>

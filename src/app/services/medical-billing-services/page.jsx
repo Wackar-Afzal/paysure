@@ -4,7 +4,6 @@ import React from "react";
 import About from "@/components/About/About";
 import Why from "@/components/Why/Why";
 import Work from "@/components/work/Work";
-import Homebaner2 from "@/components/homebnaaer2/Homebanner2";
 import {  home2ndbannericons  } from "@/assets/icons";
 import Offers from "@/components/offers/Offers";
 import Bookdemo from "@/components/bookdemo/Bookdemo";

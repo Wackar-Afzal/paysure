@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { aboutPageData } from '../../data/data';
+import Image from 'next/image';
 
 const WhatClientSay = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -67,7 +68,19 @@ const WhatClientSay = () => {
             </div>
             <div className='flex space-x-2'>
               <div className='flex justify-center items-center rounded-full w-[2.7rem] h-[2.7rem]'>
-                <img className='w-full rounded-full' src={item.img} alt={item.name} />
+                {/* <img className='w-full rounded-full' src={item.img} alt={item.name} /> */}
+                <Image
+                  src={item.img}
+                  alt="Optimized Image"
+                  width={0}
+                  height={0}
+                  sizes="100%"
+                  loading="lazy"
+                  style={{ width: '100%', height: 'auto' }}
+                  className='w-full rounded-full'
+                  placeholder="blur" 
+                  blurDataURL={`/low/${item.img}`}
+                />
               </div>
               <div className='flex flex-col'>
                 <p>{item.name}</p>
@@ -76,6 +89,17 @@ const WhatClientSay = () => {
             </div>
             <div className='absolute bottom-[32px] right-[32px] w-[4.5rem]'>
               <img className="w-[full]" src={require('../../assets/banner.png')} alt="" />
+              <Image
+                src={require('../../assets/banner.png')}
+                alt="Optimized Image"
+                width={0}
+                height={0}
+                sizes="100%"
+                loading="lazy"
+                style={{ width: '100%', height: 'auto' }}
+                // placeholder="blur" 
+                // blurDataURL={`/low/aboutImg1.png`}
+              />
             </div>
           </div>
         ))}

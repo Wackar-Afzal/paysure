@@ -20,7 +20,7 @@ const Page = () => {
     backgroundimg:"/aboutheader2.png"
   }
   const aboutBanner={
-    img:"./joininghand.jpg",
+    img:"/joininghand.jpg",
     subH:"Our Mission",
     h_1:"Joining Hands With",
     hspan:"Doctors",

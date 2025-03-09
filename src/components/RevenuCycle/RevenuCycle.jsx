@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 
 const RevenuCycle = () => {
@@ -5,6 +6,18 @@ const RevenuCycle = () => {
         <div className={`flex flex-row-reverse lg:flex-col-reverse gap-[3rem] px-[4rem] pt-4 pb-1 bg-lightGrey mt-8 sm:px-[.5rem]`}>
             <div className='md:w-full'>
                 <img src='/rcm3.jpg' alt="" className='cover mt-[-50px] lg:mt-[0px]' />
+                <Image
+                    src='/rcm3.jpg'
+                    alt="Optimized Image"
+                    width={0}
+                    height={0}
+                    sizes="100%"
+                    loading="lazy"
+                    style={{ width: '100%', height: 'auto' }}
+                    className='cover mt-[-50px] lg:mt-[0px]' 
+                    placeholder="blur" 
+                    blurDataURL={`/low/rcm3.jpg'`}
+                />
             </div>
         <div className='flex flex-col space-y-6'> 
           <div className='flex flex-col space-y-5 w-full'>

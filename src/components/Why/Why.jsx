@@ -1,4 +1,5 @@
 import CheckIcon from "@mui/icons-material/Check";
+import Image from "next/image";
 
 const Why = ({content}) => {
   return (
@@ -23,6 +24,18 @@ const Why = ({content}) => {
       </div>
       <div className=" w-[45%]  flex justify-center overflow-hidden bg-white rounded-xl lg:w-full">
         <img className="object-cover" src={content.image} alt="Why Choose Us" />
+        <Image
+            src={content.image}
+            alt="Optimized Image"
+            width={0}
+            height={0}
+            sizes="100%"
+            loading="lazy"
+            style={{ width: '100%', height: 'auto' }}
+            className="object-cover"
+            placeholder="blur" 
+            blurDataURL={`/low/${content.image}`}
+          />
       </div>
     </div>
   );

@@ -8,6 +8,7 @@ import { useState } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { toast } from "react-toastify";
+import Image from "next/image";
 
 const AllComponents = ({ content }) => {
   const { hero, features, services, ctaSection, trustSection } = content;
@@ -64,11 +65,23 @@ const AllComponents = ({ content }) => {
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex gap-8 w-full justify-center">
             <div className="w-[20%] lg:w-[50%] md:hidden">
-              <img
+              {/* <img
                 src={hero.img_right.src || "/placeholder.svg"}
                 alt={hero.img_right.alt}
                 className="w-fullobject-contain"
-              />
+              /> */}
+              <Image
+                  src={hero.img_right.src || "/placeholder.svg"}
+                  alt="Optimized Image"
+                  width={0}
+                  height={0}
+                  sizes="100%"
+                  loading="lazy"
+                  style={{ width: '100%', height: 'auto' }}
+                   className="w-full object-contain"
+                  placeholder="blur" 
+                  blurDataURL={`/low/${hero.img_right.src || "/placeholder.svg"}`}
+                />
             </div>
 
             <div className="flex flex-col justify-center  w-[40%] lg:w-auto ">
@@ -104,11 +117,23 @@ const AllComponents = ({ content }) => {
               </form>
             </div>
             <div className="w-[15%] block  lg:hidden">
-              <img
+              {/* <img
                 src={hero.img_left.src || "/placeholder.svg"}
                 alt={hero.img_left.alt}
                 className=" object-contain w-full"
-              />
+              /> */}
+               <Image
+                  src={hero.img_left.src || "/placeholder.svg"}
+                  alt="Optimized Image"
+                  width={0}
+                  height={0}
+                  sizes="100%"
+                  loading="lazy"
+                  style={{ width: '100%', height: 'auto' }}
+                    className=" object-contain w-full"
+                  placeholder="blur" 
+                  blurDataURL={`/low/${hero.img_left.src || "/placeholder.svg"}`}
+                />
             </div>
           </div>
         </div>
@@ -166,10 +191,22 @@ const AllComponents = ({ content }) => {
                   index % 2 == 0 ? "bg-primary" : "bg-secondary"
                 }`}
               >
-                <img
+                {/* <img
                   src={service.image || "/placeholder.svg"}
                   alt={service.title}
                   className="w-full rounded-lg object-cover "
+                /> */}
+                <Image
+                  src={service.image || "/placeholder.svg"}
+                  alt="Optimized Image"
+                  width={0}
+                  height={0}
+                  sizes="100%"
+                  loading="lazy"
+                  style={{ width: '100%', height: 'auto' }}
+                   className="w-full rounded-lg object-cover "
+                  placeholder="blur" 
+                  blurDataURL={`/low/${service.image || "/placeholder.svg"}`}
                 />
               </div>
             </div>

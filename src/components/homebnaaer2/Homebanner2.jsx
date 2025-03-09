@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 const Homebaner2 = () => {
   return (
@@ -9,7 +10,19 @@ const Homebaner2 = () => {
       </h2>
       <div className="flex gap-6 lg:flex-col ">
         <div className="w-[45%]  flex justify-center overflow-hidden bg-white rounded-xl lg:w-full lg:h-[50vh]">
-          <img className="object-cover  " src="./medicalclaimsbilling.jpg" />
+          {/* <img className="object-cover  " src="./medicalclaimsbilling.jpg" /> */}
+          <Image
+            src="/medicalclaimsbilling.jpg" 
+            alt="Optimized Image"
+            width={0}
+            height={0}
+            sizes="100%"
+            loading="lazy"
+            style={{ width: '100%', height: 'auto' }}
+            className="object-cover  " 
+            placeholder="blur" 
+            blurDataURL="/low/medicalclaimsbilling.jpg"
+          />
         </div>
         <div className="w-[45%] text-white p-10 text-left rounded-xl p-4 lg:w-full">
           <p className=" text-primary text-left font-semibold mb-1">

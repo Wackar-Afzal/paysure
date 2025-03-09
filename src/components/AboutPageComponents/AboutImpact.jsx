@@ -1,11 +1,22 @@
 import React from "react";
 import { icons } from "../../assets/icons";
+import Image from "next/image";
 
 const AboutImpact = () => {
   return (
     <div className="flex space-x-[6rem] xl:flex-col xl:space-x-[0rem] xl:gap-8 p-[4rem]  ">
       <div className="w-[45rem] xl:w-full">
-        <img src={"./aboutImg1.png"} alt="" />
+          <Image
+            src="/aboutImg1.png"
+            alt="Optimized Image"
+            width={0}
+            height={0}
+            sizes="100%"
+            loading="lazy"
+            style={{ width: '100%', height: 'auto' }}
+            placeholder="blur" 
+            blurDataURL={`/low/aboutImg1.png`}
+          />
       </div>
 
       <div className="flex flex-col space-y-10">

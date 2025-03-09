@@ -1,5 +1,7 @@
 'use client'
 
+import Image from "next/image"
+
 function Location() {
   const locations = [
     { name: 'Chicago', id: 1 },
@@ -43,11 +45,23 @@ function Location() {
           </div>
 
           <div className="relative flex justify-center">
-            <img
+            {/* <img
               src="/map.png"
               alt="USA Coverage Map"
               className="w-full lg:w-[60vw]"
-            />
+            /> */}
+            <Image
+                src="/map.png"
+                alt="Optimized Image"
+                width={0}
+                height={0}
+                sizes="100%"
+                loading="lazy"
+                style={{ width: '100%', height: 'auto' }}
+                className="w-full lg:w-[60vw]"
+                placeholder="blur" 
+                blurDataURL={`/low/"/map.png"`}
+              />
           </div>
         </div>
 

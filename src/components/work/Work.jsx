@@ -1,11 +1,23 @@
 import { workicons } from "@/assets/icons"
+import Image from "next/image"
 
 const Work = () => {
   return (
     <>
     <div className="p-4 pt-8 md:hidden">
         <h1 className="text-center mb-16">How our Billing Process Works?</h1>
-        <img src="/work.png"/>
+        {/* <img src="/work.png"/> */}
+        <Image
+            src="/work.png"
+            alt="Optimized Image"
+            width={0}
+            height={0}
+            sizes="100%"
+            loading="lazy"
+            style={{ width: '100%', height: 'auto' }}
+            placeholder="blur" 
+            blurDataURL={`/low/work.png`}
+          />
     </div>
     <div className=" flex-col gap-4 p-4 hidden md:flex">
     <h1 className="text-center m-8 md:text-left">How our Billing Process Works?</h1>

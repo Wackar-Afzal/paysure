@@ -1,12 +1,23 @@
 import React from 'react'
 import { icons } from '../../assets/icons';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const AboutBanner = ({aboutBanner,imgRight=false}) => {
   return (
     <div className={`flex ${imgRight?"flex-row-reverse":null}  lg:flex-col-reverse gap-[3rem] p-[4rem] sm:p-[1rem]`}>
             <div className='md:w-full'>
-        <img src={aboutBanner.img} alt="" className='cover ' />
+        <Image
+                        src={aboutBanner.img}
+                        alt="Optimized Image"
+                        width={0}
+                        height={0}
+                        sizes="100%"
+                        loading="lazy"
+                        style={{ width: '100%', height: 'auto' }}
+                        placeholder="blur" 
+                        blurDataURL={`/low/${aboutBanner.img}`}
+                      />
       </div>
     <div className='flex flex-col space-y-6'>
       {aboutBanner.span?<span className='bg-primary text-white py-2 text-[18px] !w-[max-content] !border-none !rounded-none' >{aboutBanner.subH}</span>:null}
