@@ -16,7 +16,7 @@ const AboutBanner = ({aboutBanner,imgRight=false}) => {
                         //loading="lazy"
                         style={{ width: '100%', height: 'auto' }}
                         placeholder="blur" 
-                        blurDataURL={`/${aboutBanner.img.replace("/", "lowres_")}`}
+                        blurDataURL={`https://www.paysure.site${aboutBanner.img.replace("/", "lowres_")}`}
                       />
       </div>
     <div className='flex flex-col space-y-6'>

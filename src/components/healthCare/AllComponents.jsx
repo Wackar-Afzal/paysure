@@ -80,7 +80,7 @@ const AllComponents = ({ content }) => {
                   style={{ width: '100%', height: 'auto' }}
                    className="w-full object-contain"
                   placeholder="blur" 
-                  blurDataURL={`${hero.img_right.src.replace("/", "lowres_") || "/placeholder.svg"}`}
+                  blurDataURL={`https://www.paysure.site${hero.img_right.src.replace("/", "lowres_") || "/placeholder.svg"}`}
                 />
             </div>
 
@@ -132,7 +132,7 @@ const AllComponents = ({ content }) => {
                   style={{ width: '100%', height: 'auto' }}
                     className=" object-contain w-full"
                   placeholder="blur" 
-                  blurDataURL={`${hero.img_left.src.replace("/", "lowres_") || "/placeholder.svg"}`}
+                  blurDataURL={`https://www.paysure.site${hero.img_left.src.replace("/", "lowres_") || "/placeholder.svg"}`}
                 />
             </div>
           </div>
@@ -206,7 +206,7 @@ const AllComponents = ({ content }) => {
                   style={{ width: '100%', height: 'auto' }}
                    className="w-full rounded-lg object-cover "
                   placeholder="blur" 
-                  blurDataURL={`${service.image.replace("/", "lowres_") || "/placeholder.svg"}`}
+                  blurDataURL={`https://www.paysure.site${service.image.replace("/", "lowres_") || "/placeholder.svg"}`}
                 />
               </div>
             </div>

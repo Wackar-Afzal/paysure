@@ -2,13 +2,9 @@
 
 import React from "react";
 import AboutBanner from "@/components/AboutPageComponents/AboutBanner";
-import AboutImpact from "@/components/AboutPageComponents/AboutImpact";
-
-import Speciality from "@/components/Speciality/Speciality";
 import AboutForm from "@/components/AboutPageComponents/AboutForm";
 import Banner from "@/components/HomeComponents/Banner/Banner";
 import Why from "@/components/Why/Why";
-import Offers from "@/components/offers/Offers";
 
 const Page = () => {
   const data={
@@ -49,11 +45,7 @@ const Page = () => {
         <div className="flex flex-col items-center gap-10 ">
           <Banner data={data}/>
           <AboutBanner aboutBanner={aboutBanner} />
-          {/* <AboutImpact /> */}
           <Why content={why}/>
-          {/* <Offers/> */}
-          {/* <Speciality /> */}
-          {/* <WhatClientSay /> */}
           <AboutForm />
         </div>
 
