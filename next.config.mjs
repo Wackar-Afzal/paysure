@@ -2,7 +2,7 @@
 const nextConfig = {
     images: {
         domains: ["https://www.paysure.site/"],
-        unoptimized:true
+        unoptimized:false
     }
 };
 
