@@ -59,8 +59,8 @@ function Location() {
                 //loading="lazy"
                 style={{ width: '100%', height: 'auto' }}
                 className="w-full lg:w-[60vw]"
-               // placeholder="blur" 
-                // blurDataURL={`https://www.paysure.site/lowres_map.png"`}
+              placeholder="blur" 
+              blurDataURL={`https://www.paysure.site/lowres_map.png"`}
               />
           </div>
         </div>

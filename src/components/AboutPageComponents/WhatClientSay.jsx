@@ -78,8 +78,8 @@ const WhatClientSay = () => {
                   //loading="lazy"
                   style={{ width: '100%', height: 'auto' }}
                   className='w-full rounded-full'
-                 // placeholder="blur" 
-                  // blurDataURL={`https://www.paysure.site${item.img.replace("/", "lowres_")}`}
+                placeholder="blur" 
+                blurDataURL={`https://www.paysure.site${item.img.replace("/", "lowres_")}`}
                 />
               </div>
               <div className='flex flex-col'>

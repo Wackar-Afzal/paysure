@@ -15,8 +15,8 @@ const RevenuCycle = () => {
                     //loading="lazy"
                     style={{ width: '100%', height: 'auto' }}
                     className='cover mt-[-50px] lg:mt-[0px]' 
-                   // placeholder="blur" 
-                    // blurDataURL={`https://www.paysure.site/lowres_rcm3.jpg'`}
+                  placeholder="blur" 
+                  blurDataURL={`https://www.paysure.site/lowres_rcm3.jpg'`}
                 />
             </div>
         <div className='flex flex-col space-y-6'> 
