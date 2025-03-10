@@ -108,7 +108,7 @@ const Reviews = () => {
                         //loading="lazy"
                         style={{ width: '100%', height: 'auto' }}
                         className='w-full'
-                      placeholder="blur" 
+                        placeholder="blur" 
                       blurDataURL={`https://www.paysure.site/${item.img.replace("/", "lowres_")}`}
                       />
                   </div>
@@ -128,8 +128,8 @@ const Reviews = () => {
                         //loading="lazy"
                         style={{ width: '100%', height: 'auto' }}
                         className='w-full'
-                      placeholder="blur" 
-                      blurDataURL={`https://www.paysure.site/lowres_about_style.png`}
+                       placeholder="blur" 
+                      blurDataURL={`/f.png`}
                       />
                 </div>
               </div>
