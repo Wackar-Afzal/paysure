@@ -129,7 +129,7 @@ const Reviews = () => {
                         style={{ width: '100%', height: 'auto' }}
                         className='w-full'
                        placeholder="blur" 
-                      blurDataURL={`/f.png`}
+                      blurDataURL={`/lowres_about_style.png.png`}
                       />
                 </div>
               </div>

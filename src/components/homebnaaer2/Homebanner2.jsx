@@ -21,7 +21,7 @@ const Homebaner2 = () => {
             style={{ width: '100%', height: 'auto' }}
             className="object-cover  " 
           placeholder="blur" 
-          blurDataURL="https://www.paysure.site/lowres_medicalclaimsbilling.jpg"
+          blurDataURL="/f.png"
           />
         </div>
         <div className="w-[45%] text-white p-10 text-left rounded-xl p-4 lg:w-full">
